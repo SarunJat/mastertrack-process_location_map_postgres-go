@@ -5,6 +5,7 @@ from psycopg2.extras import execute_batch
 from geopy.distance import geodesic
 import time
 import schedule
+import json
 
 # Configuration
 DB_CONFIG = {
@@ -14,9 +15,35 @@ DB_CONFIG = {
     'host': 'aws-0-ap-southeast-1.pooler.supabase.com',
     'port': '6543',
 }
+# Global variable to store settings
+SETTINGS = {}
+
+def load_settings(config_file='settings.json'):
+    """Load settings from JSON file into global SETTINGS variable"""
+    global SETTINGS
+    try:
+        with open(config_file, 'r') as f:
+            SETTINGS = json.load(f)
+        print("Settings loaded successfully")
+    except FileNotFoundError:
+        print(f"Error: Config file '{config_file}' not found")
+    except json.JSONDecodeError:
+        print("Error: Invalid JSON format in settings file")
+
+def connect_setting_db():
+    # return psycopg2.connect(**DB_CONFIG)
+    
+    # Connect to the database using the loaded configuration
+    return psycopg2.connect(**DB_CONFIG)
 
 def connect_db():
-    return psycopg2.connect(**DB_CONFIG)
+    # return psycopg2.connect(**DB_CONFIG)
+     # Load the database configuration from the JSON file
+    with open('db_config.json', 'r') as file:
+        db_config = json.load(file)
+    
+    # Connect to the database using the loaded configuration
+    return psycopg2.connect(**db_config)
 
 # Global variable to store location data
 location_cache = []
@@ -36,7 +63,7 @@ def load_location_cache():
     global location_cache
     location_cache = []
 
-    with connect_db() as conn:
+    with connect_setting_db() as conn:
         with conn.cursor() as cur:
             cur.execute("""
                 SELECT customer_id, location_desc, latitude, longitude, radius
@@ -157,22 +184,26 @@ def process_gps_detail():
         with connect_db() as conn:
             with conn.cursor() as cur:
                 # Query up to 1,000 records with specified conditions
-                cur.execute("""
+                limit_records = SETTINGS.get("limit_records", 1500)
+                if SETTINGS:
+                    print(f"Direct access example: Limit is {SETTINGS['limit_records']}")
+                    print(limit_records)
+                cur.execute(f"""
                     SELECT customer_id, mobile_id, event_datetime, event_status, latitude, longitude
                     FROM gps_detail
                     WHERE location IS NULL 
                       AND event_status IN ('91', '92', '44')
                     ORDER BY customer_id,mobile_id,event_datetime DESC
-                    LIMIT 1500
+                    LIMIT {limit_records}
                 """)
                 rows = cur.fetchall()
-                
+                print(time.strftime('%Y-%m-%d %H:%M:%S'), f" Fetched {len(rows)} records to process.")
                 # Process the records in batches of 200
                 total_records = len(rows)
                 print(time.strftime('%Y-%m-%d %H:%M:%S'), f" Fetched {total_records} records to process.")
 
                 if total_records == 0:
-                    conn.close()
+                    # conn.close()
                     print("No records to process.")
                     return
 
@@ -212,7 +243,7 @@ def process_gps_detail():
                     )
                     conn.commit()  # Commit after each batch
                     print(time.strftime('%Y-%m-%d %H:%M:%S'), f" Updated {len(updates)} records in this batch.")
-                cur.close()    
+                # cur.close()    
                 # conn.close()
                 print(time.strftime('%Y-%m-%d %H:%M:%S')," All records processed for this cycle.")
 
@@ -239,21 +270,26 @@ def process_gps_detail_full_position(customer_id='3150'):
         with connect_db() as conn:
             with conn.cursor() as cur:
                 # Query up to 1,000 records with specified conditions
-                cur.execute("""
+                limit_records = SETTINGS.get("limit_records", 1500)
+                if SETTINGS:
+                    print(f"Direct access example: Limit is {SETTINGS['limit_records']}")
+                    print(limit_records)
+                cur.execute(f"""
                     SELECT customer_id, mobile_id, event_datetime, event_status, latitude, longitude
                     FROM gps_detail
                     WHERE customer_id=%s AND location IS NULL
                     ORDER BY customer_id, mobile_id, event_datetime DESC
-                    LIMIT 1500
+                    LIMIT {limit_records}
                 """, (customer_id,))
                 rows = cur.fetchall()
+                print(time.strftime('%Y-%m-%d %H:%M:%S'), f" Fetched {len(rows)} records to process.")
                 
                 # Process the records in batches of 200
                 total_records = len(rows)
                 print(time.strftime('%Y-%m-%d %H:%M:%S'), f" Fetched {total_records} records to process.")
 
                 if total_records == 0:
-                    conn.close()
+                    # conn.close()
                     print("No records to process.")
                     return
 
@@ -280,7 +316,7 @@ def process_gps_detail_full_position(customer_id='3150'):
                     )
                     conn.commit()  # Commit after each batch
                     print(time.strftime('%Y-%m-%d %H:%M:%S'), f" Updated {len(updates)} records in this batch.")
-                cur.close()    
+                # cur.close()    
                 # conn.close()
                 print(time.strftime('%Y-%m-%d %H:%M:%S')," All records processed for this cycle.")
 
@@ -299,11 +335,12 @@ def process_gps_tasks():
     
 
 def main():
+    load_settings()
     # Load location cache every 4 hours
-    schedule.every(4).hours.do(load_location_cache)
+    schedule.every(SETTINGS.get("loop_getlocation_every_hours", 4)).hours.do(load_location_cache)
 
     # Process GPS details every 5 minutes
-    schedule.every(1).minutes.do(process_gps_tasks)
+    schedule.every(SETTINGS.get("loop_process_every_seconds", 4)).seconds.do(process_gps_tasks)
     # schedule.every(1).minutes.do(lambda: (process_gps_detail(), process_gps_detail_3150_mark_olny()))
     # schedule.every(1).minutes.do(process_gps_detail_3150_mark_olny)
 
