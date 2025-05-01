@@ -1,0 +1,5 @@
+{
+    "limit_records":3500,
+    "loop_process_every_seconds":60,
+    "loop_getlocation_eveery_hours":4
+}

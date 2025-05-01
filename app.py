@@ -6,6 +6,16 @@ from geopy.distance import geodesic
 import time
 import schedule
 import json
+import logging # Import logging
+import sys # Needed for sys.executable
+
+# --- Application Version ---
+APP_VERSION = "1.1.0" # Define the application version here
+
+def get_app_version():
+    """Returns the application version string."""
+    return APP_VERSION
+# -------------------------
 
 # Configuration
 DB_CONFIG = {
@@ -19,16 +29,23 @@ DB_CONFIG = {
 SETTINGS = {}
 
 def load_settings(config_file='settings.json'):
+    
+    # logging.info(f"--- MasterTrack Location Processor v{get_app_version()} ---") # Use logging
+    
+
     """Load settings from JSON file into global SETTINGS variable"""
     global SETTINGS
     try:
         with open(config_file, 'r') as f:
             SETTINGS = json.load(f)
         print("Settings loaded successfully")
+        logging.info("Settings loaded successfully") # Use logging
     except FileNotFoundError:
         print(f"Error: Config file '{config_file}' not found")
+        logging.error(f"Error: Config file '{config_file}' not found") # Use logging
     except json.JSONDecodeError:
         print("Error: Invalid JSON format in settings file")
+        logging.error("Error: Invalid JSON format in settings file")
 
 def connect_setting_db():
     # return psycopg2.connect(**DB_CONFIG)
@@ -49,14 +66,39 @@ def connect_db():
 location_cache = []
 
 # Function to load and ensure CRS is set
+# def load_shapefile(file_path, encoding="utf-8", crs_epsg=4326):
+#     """
+#     Load a shapefile, set its CRS if missing, and return the GeoDataFrame.
+#     """
+#     logging.info(f"Loading shapefile: {file_path}") # Use logging
+#     print(time.strftime('%Y-%m-%d %H:%M:%S'), f"Loading shapefile: {file_path}")
+#     gdf = gpd.read_file(file_path, encoding=encoding)
+#     if gdf.crs is None:
+#         gdf.set_crs(epsg=crs_epsg, inplace=True)
+#     return gdf
 def load_shapefile(file_path, encoding="utf-8", crs_epsg=4326):
     """
     Load a shapefile, set its CRS if missing, and return the GeoDataFrame.
     """
-    gdf = gpd.read_file(file_path, encoding=encoding)
-    if gdf.crs is None:
-        gdf.set_crs(epsg=crs_epsg, inplace=True)
-    return gdf
+    try:
+        logging.info(f"Loading shapefile: {file_path}")
+        # print(time.strftime('%Y-%m-%d %H:%M:%S'), f"Loading shapefile: {file_path}")
+        gdf = gpd.read_file(file_path, encoding=encoding)
+        if gdf.crs is None:
+            gdf.set_crs(epsg=crs_epsg, inplace=True)
+        return gdf
+    except FileNotFoundError:
+        error_msg = f"Error: Shapefile not found: {file_path}"
+        logging.error(error_msg)
+        print(time.strftime('%Y-%m-%d %H:%M:%S'), error_msg)
+        # Return an empty GeoDataFrame with the right structure
+        return gpd.GeoDataFrame(geometry=[], crs=f"EPSG:{crs_epsg}")
+    except Exception as e:
+        error_msg = f"Error loading shapefile {file_path}: {str(e)}"
+        logging.error(error_msg)
+        print(time.strftime('%Y-%m-%d %H:%M:%S'), error_msg)
+        # Return an empty GeoDataFrame with the right structure
+        return gpd.GeoDataFrame(geometry=[], crs=f"EPSG:{crs_epsg}")
 
 def load_location_cache():
     """Load location data into memory."""
@@ -71,6 +113,32 @@ def load_location_cache():
             """)
             location_cache = cur.fetchall()
     print(time.strftime('%Y-%m-%d %H:%M:%S'),f"Mark location {len(location_cache)} records loaded.")
+
+
+def setup_logging():
+    """Sets up logging to file and console."""
+    log_formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
+    log_file = 'app.log' # Log file will be created in the same directory as the exe
+
+    # File Handler
+    file_handler = logging.FileHandler(log_file)
+    file_handler.setFormatter(log_formatter)
+    file_handler.setLevel(logging.INFO) # Log INFO level and above to file
+
+    # Console Handler (optional, but good for seeing output when run manually)
+    console_handler = logging.StreamHandler(sys.stdout)
+    console_handler.setFormatter(log_formatter)
+    console_handler.setLevel(logging.INFO) # Show INFO level and above on console
+
+    # Get the root logger
+    logger = logging.getLogger()
+    logger.setLevel(logging.INFO) # Set root logger level
+    logger.addHandler(file_handler)
+    # logger.addHandler(console_handler) # Uncomment to also see logs in console if it stays open
+
+    # Redirect print statements to logging (optional)
+    # sys.stdout = StreamToLogger(logging.getLogger('STDOUT'), logging.INFO)
+    # sys.stderr = StreamToLogger(logging.getLogger('STDERR'), logging.ERROR)
 
 
 def find_layer_by_point(gps_point, layer_gdf, name_field, is_province=False):
@@ -165,11 +233,19 @@ def process_gps_detail():
     print(time.strftime('%Y-%m-%d %H:%M:%S'), 'Start process_gps_detail')
     """Process GPS details and update locations in batches of 200 until 1,000 records are processed."""
      # Step 1: Load shapefiles
+    logging.info("Loading shapefiles") # Use logging
+    print(time.strftime('%Y-%m-%d %H:%M:%S'), 'Loading shapefiles')
+    
     countries_gdf = load_shapefile("data_map3/Th_Country_region.shp", encoding="TIS-620")
+    
     provinces_gdf = load_shapefile("data_map3/Th_Province_region.shp", encoding="TIS-620")
+    
     amphur_gdf = load_shapefile("data_map3/Th_Amphoe_region.shp", encoding="TIS-620")
+    
     tambon_gdf = load_shapefile("data_map3/Th_Tambon_region.shp", encoding="TIS-620")       
+    
     print(time.strftime('%Y-%m-%d %H:%M:%S'),'Shape Files : Loaded')
+    logging.info("Shape Files : Loaded") # Use logging
     # Step 2: Define layers for searching
     layers = [
         {'gdf': tambon_gdf, 'name_field': 'NAME_THAI','is_province':False},
@@ -182,12 +258,14 @@ def process_gps_detail():
     ]
     try:
         with connect_db() as conn:
+            logging.info("Connected to database") # Use logging
+            print(time.strftime('%Y-%m-%d %H:%M:%S'), 'Connected to database')
             with conn.cursor() as cur:
                 # Query up to 1,000 records with specified conditions
                 limit_records = SETTINGS.get("limit_records", 1500)
                 if SETTINGS:
                     print(f"Direct access example: Limit is {SETTINGS['limit_records']}")
-                    print(limit_records)
+                    # print(limit_records)
                 cur.execute(f"""
                     SELECT customer_id, mobile_id, event_datetime, event_status, latitude, longitude
                     FROM gps_detail
@@ -197,11 +275,12 @@ def process_gps_detail():
                     LIMIT {limit_records}
                 """)
                 rows = cur.fetchall()
-                print(time.strftime('%Y-%m-%d %H:%M:%S'), f" Fetched {len(rows)} records to process.")
+                # logging.info(f"Fetched {len(rows)} records to process.") # Use logging
+                # print(time.strftime('%Y-%m-%d %H:%M:%S'), f" Fetched {len(rows)} records to process.")
                 # Process the records in batches of 200
                 total_records = len(rows)
                 print(time.strftime('%Y-%m-%d %H:%M:%S'), f" Fetched {total_records} records to process.")
-
+                logging.info(f"Fetched {total_records} records to process.") # Use logging
                 if total_records == 0:
                     # conn.close()
                     print("No records to process.")
@@ -251,6 +330,7 @@ def process_gps_detail():
         # conn.close()
         # print(f"Error processing GPS detail: {e}")
         print(f"Error query processing GPS detail process_gps_detail: {e}")
+        logging.exception(f"Error query processing GPS detail process_gps_detail: {e}") # Use logging
         # countries_gdf.close()
         # provinces_gdf.close()
         # amphur_gdf.close()
@@ -271,22 +351,38 @@ def process_gps_detail_full_position(customer_id='3150'):
             with conn.cursor() as cur:
                 # Query up to 1,000 records with specified conditions
                 limit_records = SETTINGS.get("limit_records", 1500)
+                total_records = 0
                 if SETTINGS:
                     print(f"Direct access example: Limit is {SETTINGS['limit_records']}")
-                    print(limit_records)
-                cur.execute(f"""
+                    # print(limit_records)
+                try:
+                  cur.execute(f"""
                     SELECT customer_id, mobile_id, event_datetime, event_status, latitude, longitude
                     FROM gps_detail
                     WHERE customer_id=%s AND location IS NULL
                     ORDER BY customer_id, mobile_id, event_datetime DESC
                     LIMIT {limit_records}
-                """, (customer_id,))
-                rows = cur.fetchall()
-                print(time.strftime('%Y-%m-%d %H:%M:%S'), f" Fetched {len(rows)} records to process.")
+                  """, (customer_id,))
+                  rows = cur.fetchall()
+                #   print(time.strftime('%Y-%m-%d %H:%M:%S'), f" Fetched {len(rows)} records to process.")
+                  # Process the records in batches of 200
+                  total_records = len(rows)
+                  print(time.strftime('%Y-%m-%d %H:%M:%S'), f" Fetched {total_records} records to process.")
+                except Exception as e:
+                    if "canceling statement due to statement timeout" in str(e):
+                        logging.warning("Query timeout occurred, consider reducing limit_records in settings.json")
+                        # Reduce the limit for the next run
+                        if "limit_records" in SETTINGS and limit_records > 500:
+                            SETTINGS["limit_records"] = max(500, limit_records // 2)
+                            logging.info(f"Automatically reduced limit_records to {limit_records}")
+                    else:
+                        logging.info(f"Fetched {len(rows)} records to process.") # Use logging   
+                        print(time.strftime('%Y-%m-%d %H:%M:%S'), f" Fetched {len(rows)} records to process.")
+                        exception_msg = f"Error fetching records: {e}"
+                        logging.error(exception_msg) # Use logging                 
+                        raise  # Re-raise the exception if it's not a timeout
+                 
                 
-                # Process the records in batches of 200
-                total_records = len(rows)
-                print(time.strftime('%Y-%m-%d %H:%M:%S'), f" Fetched {total_records} records to process.")
 
                 if total_records == 0:
                     # conn.close()
@@ -323,18 +419,24 @@ def process_gps_detail_full_position(customer_id='3150'):
     except Exception as e:
         # conn.close()
         print(f"Error query processing GPS detail process_gps_detail_full_position: {e}")
+        logging.exception(f"Error query processing GPS detail process_gps_detail_full_position: {e}") # Use logging
     print(time.strftime('%Y-%m-%d %H:%M:%S'),'End process_gps_detail_full_position',customer_id)    
                
 def process_gps_tasks():
     # First, process GPS details
+    logging.info("Starting process_gps_tasks")
+    print(time.strftime('%Y-%m-%d %H:%M:%S'), 'Start process_gps_tasks')
     process_gps_detail()
-    
+    logging.info("Finished process_gps_detail")
     # Then, process GPS details with full position
     process_gps_detail_full_position("3150")
     process_gps_detail_full_position("3164")
     
 
 def main():
+     # Print the version first
+    print(f"--- MasterTrack Location Processor v{get_app_version()} ---")
+    setup_logging()
     load_settings()
     # Load location cache every 4 hours
     schedule.every(SETTINGS.get("loop_getlocation_every_hours", 4)).hours.do(load_location_cache)

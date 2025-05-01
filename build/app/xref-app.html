@@ -158,6 +158,7 @@ imports:
  &#8226;   <a href="#keyword">keyword</a>
  &#8226;   <a href="#linecache">linecache</a>
  &#8226;   <a href="#locale">locale</a>
+ &#8226;   <a href="#logging">logging</a>
  &#8226;   <a href="#ntpath">ntpath</a>
  &#8226;   <a href="#operator">operator</a>
  &#8226;   <a href="#os">os</a>
@@ -181,6 +182,7 @@ imports:
  &#8226;   <a href="#sre_constants">sre_constants</a>
  &#8226;   <a href="#sre_parse">sre_parse</a>
  &#8226;   <a href="#stat">stat</a>
+ &#8226;   <a href="#sys">sys</a>
  &#8226;   <a href="#time">time</a>
  &#8226;   <a href="#traceback">traceback</a>
  &#8226;   <a href="#types">types</a>
@@ -7950,6 +7952,8 @@ imported by:
  &#8226;   <a href="#attr.filters">attr.filters</a>
  &#8226;   <a href="#attr.setters">attr.setters</a>
  &#8226;   <a href="#attr.validators">attr.validators</a>
+ &#8226;   <a href="#fiona._path">fiona._path</a>
+ &#8226;   <a href="#fiona.env">fiona.env</a>
 
   </div>
 
@@ -8294,6 +8298,7 @@ imported by:
  &#8226;   <a href="#email.message">email.message</a>
  &#8226;   <a href="#encodings.hex_codec">encodings.hex_codec</a>
  &#8226;   <a href="#encodings.uu_codec">encodings.uu_codec</a>
+ &#8226;   <a href="#fiona.model">fiona.model</a>
  &#8226;   <a href="#http.server">http.server</a>
  &#8226;   <a href="#plistlib">plistlib</a>
  &#8226;   <a href="#quopri">quopri</a>
@@ -8325,6 +8330,17 @@ imported by:
  &#8226;   <a href="#random">random</a>
  &#8226;   <a href="#statistics">statistics</a>
  &#8226;   <a href="#urllib.request">urllib.request</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="boto3"></a>
+  <a target="code" href="" type="text/plain"><tt>boto3</tt></a>
+<span class="moduletype">MissingModule</span>  <div class="import">
+imported by:
+    <a href="#fiona.session">fiona.session</a>
 
   </div>
 
@@ -9074,6 +9090,7 @@ imported by:
  &#8226;   <a href="#dis">dis</a>
  &#8226;   <a href="#doctest">doctest</a>
  &#8226;   <a href="#email.feedparser">email.feedparser</a>
+ &#8226;   <a href="#fiona.compat">fiona.compat</a>
  &#8226;   <a href="#functools">functools</a>
  &#8226;   <a href="#geopandas._config">geopandas._config</a>
  &#8226;   <a href="#geopandas.io.file">geopandas.io.file</a>
@@ -9199,6 +9216,8 @@ imported by:
  &#8226;   <a href="#asyncio.base_events">asyncio.base_events</a>
  &#8226;   <a href="#asyncio.coroutines">asyncio.coroutines</a>
  &#8226;   <a href="#attr._compat">attr._compat</a>
+ &#8226;   <a href="#fiona.compat">fiona.compat</a>
+ &#8226;   <a href="#fiona.model">fiona.model</a>
  &#8226;   <a href="#frozenlist">frozenlist</a>
  &#8226;   <a href="#geopy.geocoders.bing">geopy.geocoders.bing</a>
  &#8226;   <a href="#geopy.geocoders.geocodio">geopy.geocoders.geocodio</a>
@@ -9652,6 +9671,8 @@ imported by:
  &#8226;   <a href="#attr.validators">attr.validators</a>
  &#8226;   <a href="#colorama.initialise">colorama.initialise</a>
  &#8226;   <a href="#dateutil.tz.tz">dateutil.tz.tz</a>
+ &#8226;   <a href="#fiona">fiona</a>
+ &#8226;   <a href="#fiona.collection">fiona.collection</a>
  &#8226;   <a href="#geopandas.io.sql">geopandas.io.sql</a>
  &#8226;   <a href="#geopy.adapters">geopy.adapters</a>
  &#8226;   <a href="#getpass">getpass</a>
@@ -13607,6 +13628,8 @@ imported by:
  &#8226;   <a href="#asyncio.sslproto">asyncio.sslproto</a>
  &#8226;   <a href="#asyncio.timeouts">asyncio.timeouts</a>
  &#8226;   <a href="#attr._make">attr._make</a>
+ &#8226;   <a href="#fiona.enums">fiona.enums</a>
+ &#8226;   <a href="#fiona.model">fiona.model</a>
  &#8226;   <a href="#http">http</a>
  &#8226;   <a href="#inspect">inspect</a>
  &#8226;   <a href="#numpy.__config__">numpy.__config__</a>
@@ -13733,11 +13756,504 @@ imported by:
 
 <div class="node">
   <a name="fiona"></a>
-  <a target="code" href="" type="text/plain"><tt>fiona</tt></a>
-<span class="moduletype">MissingModule</span>  <div class="import">
+  <a target="code" href="///C:/DevTools/python/Lib/site-packages/fiona/__init__.py" type="text/plain"><tt>fiona</tt></a>
+<span class="moduletype">Package</span>  <div class="import">
+imports:
+    <a href="#contextlib">contextlib</a>
+ &#8226;   <a href="#fiona">fiona</a>
+ &#8226;   <a href="#fiona._env">fiona._env</a>
+ &#8226;   <a href="#fiona._err">fiona._err</a>
+ &#8226;   <a href="#fiona._geometry">fiona._geometry</a>
+ &#8226;   <a href="#fiona._path">fiona._path</a>
+ &#8226;   <a href="#fiona._show_versions">fiona._show_versions</a>
+ &#8226;   <a href="#fiona._vsiopener">fiona._vsiopener</a>
+ &#8226;   <a href="#fiona.collection">fiona.collection</a>
+ &#8226;   <a href="#fiona.compat">fiona.compat</a>
+ &#8226;   <a href="#fiona.drvsupport">fiona.drvsupport</a>
+ &#8226;   <a href="#fiona.enums">fiona.enums</a>
+ &#8226;   <a href="#fiona.env">fiona.env</a>
+ &#8226;   <a href="#fiona.errors">fiona.errors</a>
+ &#8226;   <a href="#fiona.io">fiona.io</a>
+ &#8226;   <a href="#fiona.model">fiona.model</a>
+ &#8226;   <a href="#fiona.ogrext">fiona.ogrext</a>
+ &#8226;   <a href="#fiona.rfc3339">fiona.rfc3339</a>
+ &#8226;   <a href="#fiona.schema">fiona.schema</a>
+ &#8226;   <a href="#fiona.vfs">fiona.vfs</a>
+ &#8226;   <a href="#glob">glob</a>
+ &#8226;   <a href="#json">json</a>
+ &#8226;   <a href="#logging">logging</a>
+ &#8226;   <a href="#os">os</a>
+ &#8226;   <a href="#pathlib">pathlib</a>
+ &#8226;   <a href="#platform">platform</a>
+ &#8226;   <a href="#uuid">uuid</a>
+ &#8226;   <a href="#warnings">warnings</a>
+
+  </div>
+  <div class="import">
 imported by:
-    <a href="#geopandas.io.file">geopandas.io.file</a>
+    <a href="#fiona">fiona</a>
+ &#8226;   <a href="#fiona._env">fiona._env</a>
+ &#8226;   <a href="#fiona._err">fiona._err</a>
+ &#8226;   <a href="#fiona._geometry">fiona._geometry</a>
+ &#8226;   <a href="#fiona._path">fiona._path</a>
+ &#8226;   <a href="#fiona._show_versions">fiona._show_versions</a>
+ &#8226;   <a href="#fiona._vsiopener">fiona._vsiopener</a>
+ &#8226;   <a href="#fiona.collection">fiona.collection</a>
+ &#8226;   <a href="#fiona.compat">fiona.compat</a>
+ &#8226;   <a href="#fiona.crs">fiona.crs</a>
+ &#8226;   <a href="#fiona.drvsupport">fiona.drvsupport</a>
+ &#8226;   <a href="#fiona.enums">fiona.enums</a>
+ &#8226;   <a href="#fiona.env">fiona.env</a>
+ &#8226;   <a href="#fiona.errors">fiona.errors</a>
+ &#8226;   <a href="#fiona.io">fiona.io</a>
+ &#8226;   <a href="#fiona.logutils">fiona.logutils</a>
+ &#8226;   <a href="#fiona.meta">fiona.meta</a>
+ &#8226;   <a href="#fiona.model">fiona.model</a>
+ &#8226;   <a href="#fiona.ogrext">fiona.ogrext</a>
+ &#8226;   <a href="#fiona.rfc3339">fiona.rfc3339</a>
+ &#8226;   <a href="#fiona.schema">fiona.schema</a>
+ &#8226;   <a href="#fiona.session">fiona.session</a>
+ &#8226;   <a href="#fiona.vfs">fiona.vfs</a>
+ &#8226;   <a href="#geopandas.io.file">geopandas.io.file</a>
  &#8226;   <a href="#geopandas.tools._show_versions">geopandas.tools._show_versions</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="fiona._env"></a>
+  <tt>fiona._env</tt> <span class="moduletype"><tt>C:\DevTools\python\Lib\site-packages\fiona\_env.cp311-win_amd64.pyd</tt></span>  <div class="import">
+imports:
+    <a href="#fiona">fiona</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#fiona">fiona</a>
+ &#8226;   <a href="#fiona._show_versions">fiona._show_versions</a>
+ &#8226;   <a href="#fiona.collection">fiona.collection</a>
+ &#8226;   <a href="#fiona.drvsupport">fiona.drvsupport</a>
+ &#8226;   <a href="#fiona.env">fiona.env</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="fiona._err"></a>
+  <tt>fiona._err</tt> <span class="moduletype"><tt>C:\DevTools\python\Lib\site-packages\fiona\_err.cp311-win_amd64.pyd</tt></span>  <div class="import">
+imports:
+    <a href="#fiona">fiona</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#fiona">fiona</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="fiona._geometry"></a>
+  <tt>fiona._geometry</tt> <span class="moduletype"><tt>C:\DevTools\python\Lib\site-packages\fiona\_geometry.cp311-win_amd64.pyd</tt></span>  <div class="import">
+imports:
+    <a href="#fiona">fiona</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#fiona">fiona</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="fiona._path"></a>
+  <a target="code" href="///C:/DevTools/python/Lib/site-packages/fiona/_path.py" type="text/plain"><tt>fiona._path</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#attr">attr</a>
+ &#8226;   <a href="#fiona">fiona</a>
+ &#8226;   <a href="#fiona.errors">fiona.errors</a>
+ &#8226;   <a href="#os">os</a>
+ &#8226;   <a href="#pathlib">pathlib</a>
+ &#8226;   <a href="#re">re</a>
+ &#8226;   <a href="#sys">sys</a>
+ &#8226;   <a href="#urllib.parse">urllib.parse</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#fiona">fiona</a>
+ &#8226;   <a href="#fiona.collection">fiona.collection</a>
+ &#8226;   <a href="#fiona.session">fiona.session</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="fiona._show_versions"></a>
+  <a target="code" href="///C:/DevTools/python/Lib/site-packages/fiona/_show_versions.py" type="text/plain"><tt>fiona._show_versions</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#fiona">fiona</a>
+ &#8226;   <a href="#fiona._env">fiona._env</a>
+ &#8226;   <a href="#platform">platform</a>
+ &#8226;   <a href="#sys">sys</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#fiona">fiona</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="fiona._vsiopener"></a>
+  <tt>fiona._vsiopener</tt> <span class="moduletype"><tt>C:\DevTools\python\Lib\site-packages\fiona\_vsiopener.cp311-win_amd64.pyd</tt></span>  <div class="import">
+imports:
+    <a href="#fiona">fiona</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#fiona">fiona</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="fiona.collection"></a>
+  <a target="code" href="///C:/DevTools/python/Lib/site-packages/fiona/collection.py" type="text/plain"><tt>fiona.collection</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#contextlib">contextlib</a>
+ &#8226;   <a href="#fiona">fiona</a>
+ &#8226;   <a href="#fiona._env">fiona._env</a>
+ &#8226;   <a href="#fiona._path">fiona._path</a>
+ &#8226;   <a href="#fiona.compat">fiona.compat</a>
+ &#8226;   <a href="#fiona.crs">fiona.crs</a>
+ &#8226;   <a href="#fiona.drvsupport">fiona.drvsupport</a>
+ &#8226;   <a href="#fiona.env">fiona.env</a>
+ &#8226;   <a href="#fiona.errors">fiona.errors</a>
+ &#8226;   <a href="#fiona.logutils">fiona.logutils</a>
+ &#8226;   <a href="#fiona.ogrext">fiona.ogrext</a>
+ &#8226;   <a href="#fiona.vfs">fiona.vfs</a>
+ &#8226;   <a href="#logging">logging</a>
+ &#8226;   <a href="#pathlib">pathlib</a>
+ &#8226;   <a href="#warnings">warnings</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#fiona">fiona</a>
+ &#8226;   <a href="#fiona.io">fiona.io</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="fiona.compat"></a>
+  <a target="code" href="///C:/DevTools/python/Lib/site-packages/fiona/compat.py" type="text/plain"><tt>fiona.compat</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#collections">collections</a>
+ &#8226;   <a href="#collections.abc">collections.abc</a>
+ &#8226;   <a href="#fiona">fiona</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#fiona">fiona</a>
+ &#8226;   <a href="#fiona.collection">fiona.collection</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="fiona.crs"></a>
+  <tt>fiona.crs</tt> <span class="moduletype"><tt>C:\DevTools\python\Lib\site-packages\fiona\crs.cp311-win_amd64.pyd</tt></span>  <div class="import">
+imports:
+    <a href="#fiona">fiona</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#fiona.collection">fiona.collection</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="fiona.drvsupport"></a>
+  <a target="code" href="///C:/DevTools/python/Lib/site-packages/fiona/drvsupport.py" type="text/plain"><tt>fiona.drvsupport</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#fiona">fiona</a>
+ &#8226;   <a href="#fiona._env">fiona._env</a>
+ &#8226;   <a href="#fiona.env">fiona.env</a>
+ &#8226;   <a href="#fiona.meta">fiona.meta</a>
+ &#8226;   <a href="#os">os</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#fiona">fiona</a>
+ &#8226;   <a href="#fiona.collection">fiona.collection</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="fiona.enums"></a>
+  <a target="code" href="///C:/DevTools/python/Lib/site-packages/fiona/enums.py" type="text/plain"><tt>fiona.enums</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#enum">enum</a>
+ &#8226;   <a href="#fiona">fiona</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#fiona">fiona</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="fiona.env"></a>
+  <a target="code" href="///C:/DevTools/python/Lib/site-packages/fiona/env.py" type="text/plain"><tt>fiona.env</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#attr">attr</a>
+ &#8226;   <a href="#fiona">fiona</a>
+ &#8226;   <a href="#fiona._env">fiona._env</a>
+ &#8226;   <a href="#fiona.errors">fiona.errors</a>
+ &#8226;   <a href="#fiona.session">fiona.session</a>
+ &#8226;   <a href="#functools">functools</a>
+ &#8226;   <a href="#inspect">inspect</a>
+ &#8226;   <a href="#logging">logging</a>
+ &#8226;   <a href="#os">os</a>
+ &#8226;   <a href="#re">re</a>
+ &#8226;   <a href="#threading">threading</a>
+ &#8226;   <a href="#warnings">warnings</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#fiona">fiona</a>
+ &#8226;   <a href="#fiona.collection">fiona.collection</a>
+ &#8226;   <a href="#fiona.drvsupport">fiona.drvsupport</a>
+ &#8226;   <a href="#fiona.meta">fiona.meta</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="fiona.errors"></a>
+  <a target="code" href="///C:/DevTools/python/Lib/site-packages/fiona/errors.py" type="text/plain"><tt>fiona.errors</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#fiona">fiona</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#fiona">fiona</a>
+ &#8226;   <a href="#fiona._path">fiona._path</a>
+ &#8226;   <a href="#fiona.collection">fiona.collection</a>
+ &#8226;   <a href="#fiona.env">fiona.env</a>
+ &#8226;   <a href="#fiona.io">fiona.io</a>
+ &#8226;   <a href="#fiona.model">fiona.model</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="fiona.io"></a>
+  <a target="code" href="///C:/DevTools/python/Lib/site-packages/fiona/io.py" type="text/plain"><tt>fiona.io</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#fiona">fiona</a>
+ &#8226;   <a href="#fiona.collection">fiona.collection</a>
+ &#8226;   <a href="#fiona.errors">fiona.errors</a>
+ &#8226;   <a href="#fiona.meta">fiona.meta</a>
+ &#8226;   <a href="#fiona.ogrext">fiona.ogrext</a>
+ &#8226;   <a href="#logging">logging</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#fiona">fiona</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="fiona.logutils"></a>
+  <a target="code" href="///C:/DevTools/python/Lib/site-packages/fiona/logutils.py" type="text/plain"><tt>fiona.logutils</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#fiona">fiona</a>
+ &#8226;   <a href="#logging">logging</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#fiona.collection">fiona.collection</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="fiona.meta"></a>
+  <a target="code" href="///C:/DevTools/python/Lib/site-packages/fiona/meta.py" type="text/plain"><tt>fiona.meta</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#fiona">fiona</a>
+ &#8226;   <a href="#fiona.env">fiona.env</a>
+ &#8226;   <a href="#fiona.ogrext">fiona.ogrext</a>
+ &#8226;   <a href="#logging">logging</a>
+ &#8226;   <a href="#xml.etree.ElementTree">xml.etree.ElementTree</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#fiona.drvsupport">fiona.drvsupport</a>
+ &#8226;   <a href="#fiona.io">fiona.io</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="fiona.model"></a>
+  <a target="code" href="///C:/DevTools/python/Lib/site-packages/fiona/model.py" type="text/plain"><tt>fiona.model</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#binascii">binascii</a>
+ &#8226;   <a href="#collections.abc">collections.abc</a>
+ &#8226;   <a href="#enum">enum</a>
+ &#8226;   <a href="#fiona">fiona</a>
+ &#8226;   <a href="#fiona.errors">fiona.errors</a>
+ &#8226;   <a href="#itertools">itertools</a>
+ &#8226;   <a href="#json">json</a>
+ &#8226;   <a href="#reprlib">reprlib</a>
+ &#8226;   <a href="#warnings">warnings</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#fiona">fiona</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="fiona.ogrext"></a>
+  <tt>fiona.ogrext</tt> <span class="moduletype"><tt>C:\DevTools\python\Lib\site-packages\fiona\ogrext.cp311-win_amd64.pyd</tt></span>  <div class="import">
+imports:
+    <a href="#fiona">fiona</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#fiona">fiona</a>
+ &#8226;   <a href="#fiona.collection">fiona.collection</a>
+ &#8226;   <a href="#fiona.io">fiona.io</a>
+ &#8226;   <a href="#fiona.meta">fiona.meta</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="fiona.rfc3339"></a>
+  <a target="code" href="///C:/DevTools/python/Lib/site-packages/fiona/rfc3339.py" type="text/plain"><tt>fiona.rfc3339</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#fiona">fiona</a>
+ &#8226;   <a href="#logging">logging</a>
+ &#8226;   <a href="#re">re</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#fiona">fiona</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="fiona.schema"></a>
+  <tt>fiona.schema</tt> <span class="moduletype"><tt>C:\DevTools\python\Lib\site-packages\fiona\schema.cp311-win_amd64.pyd</tt></span>  <div class="import">
+imports:
+    <a href="#fiona">fiona</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#fiona">fiona</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="fiona.session"></a>
+  <a target="code" href="///C:/DevTools/python/Lib/site-packages/fiona/session.py" type="text/plain"><tt>fiona.session</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#boto3">boto3</a>
+ &#8226;   <a href="#fiona">fiona</a>
+ &#8226;   <a href="#fiona._path">fiona._path</a>
+ &#8226;   <a href="#logging">logging</a>
+ &#8226;   <a href="#os">os</a>
+ &#8226;   <a href="#swiftclient">swiftclient</a>
+ &#8226;   <a href="#warnings">warnings</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#fiona.env">fiona.env</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="fiona.vfs"></a>
+  <a target="code" href="///C:/DevTools/python/Lib/site-packages/fiona/vfs.py" type="text/plain"><tt>fiona.vfs</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#fiona">fiona</a>
+ &#8226;   <a href="#re">re</a>
+ &#8226;   <a href="#sys">sys</a>
+ &#8226;   <a href="#urllib.parse">urllib.parse</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#fiona">fiona</a>
+ &#8226;   <a href="#fiona.collection">fiona.collection</a>
 
   </div>
 
@@ -13944,6 +14460,7 @@ imported by:
  &#8226;   <a href="#email._encoded_words">email._encoded_words</a>
  &#8226;   <a href="#email.charset">email.charset</a>
  &#8226;   <a href="#enum">enum</a>
+ &#8226;   <a href="#fiona.env">fiona.env</a>
  &#8226;   <a href="#fnmatch">fnmatch</a>
  &#8226;   <a href="#frozenlist">frozenlist</a>
  &#8226;   <a href="#geopandas.array">geopandas.array</a>
@@ -16285,6 +16802,7 @@ imports:
 imported by:
     <a href="#_pytest._argcomplete">_pytest._argcomplete</a>
  &#8226;   <a href="#_pytest.config">_pytest.config</a>
+ &#8226;   <a href="#fiona">fiona</a>
  &#8226;   <a href="#pdb">pdb</a>
  &#8226;   <a href="#webbrowser">webbrowser</a>
 
@@ -17461,6 +17979,7 @@ imported by:
  &#8226;   <a href="#bdb">bdb</a>
  &#8226;   <a href="#dataclasses">dataclasses</a>
  &#8226;   <a href="#doctest">doctest</a>
+ &#8226;   <a href="#fiona.env">fiona.env</a>
  &#8226;   <a href="#geopandas.array">geopandas.array</a>
  &#8226;   <a href="#geopy.geocoders.base">geopy.geocoders.base</a>
  &#8226;   <a href="#numpy.lib._utils_impl">numpy.lib._utils_impl</a>
@@ -17667,6 +18186,7 @@ imported by:
  &#8226;   <a href="#concurrent.futures.thread">concurrent.futures.thread</a>
  &#8226;   <a href="#dataclasses">dataclasses</a>
  &#8226;   <a href="#dateutil.rrule">dateutil.rrule</a>
+ &#8226;   <a href="#fiona.model">fiona.model</a>
  &#8226;   <a href="#geopy.point">geopy.point</a>
  &#8226;   <a href="#glob">glob</a>
  &#8226;   <a href="#http.server">http.server</a>
@@ -17781,6 +18301,8 @@ imported by:
  &#8226;   <a href="#app.py">app.py</a>
  &#8226;   <a href="#charset_normalizer.models">charset_normalizer.models</a>
  &#8226;   <a href="#dateutil.zoneinfo">dateutil.zoneinfo</a>
+ &#8226;   <a href="#fiona">fiona</a>
+ &#8226;   <a href="#fiona.model">fiona.model</a>
  &#8226;   <a href="#geopandas._version">geopandas._version</a>
  &#8226;   <a href="#geopandas.geodataframe">geopandas.geodataframe</a>
  &#8226;   <a href="#geopandas.io._geoarrow">geopandas.io._geoarrow</a>
@@ -17984,6 +18506,7 @@ imported by:
  &#8226;   <a href="#aiohttp.web_app">aiohttp.web_app</a>
  &#8226;   <a href="#aiohttp.web_log">aiohttp.web_log</a>
  &#8226;   <a href="#aiohttp.web_protocol">aiohttp.web_protocol</a>
+ &#8226;   <a href="#app.py">app.py</a>
  &#8226;   <a href="#asyncio.futures">asyncio.futures</a>
  &#8226;   <a href="#asyncio.log">asyncio.log</a>
  &#8226;   <a href="#charset_normalizer">charset_normalizer</a>
@@ -17991,6 +18514,14 @@ imported by:
  &#8226;   <a href="#charset_normalizer.md">charset_normalizer.md</a>
  &#8226;   <a href="#charset_normalizer.utils">charset_normalizer.utils</a>
  &#8226;   <a href="#concurrent.futures._base">concurrent.futures._base</a>
+ &#8226;   <a href="#fiona">fiona</a>
+ &#8226;   <a href="#fiona.collection">fiona.collection</a>
+ &#8226;   <a href="#fiona.env">fiona.env</a>
+ &#8226;   <a href="#fiona.io">fiona.io</a>
+ &#8226;   <a href="#fiona.logutils">fiona.logutils</a>
+ &#8226;   <a href="#fiona.meta">fiona.meta</a>
+ &#8226;   <a href="#fiona.rfc3339">fiona.rfc3339</a>
+ &#8226;   <a href="#fiona.session">fiona.session</a>
  &#8226;   <a href="#geopy.util">geopy.util</a>
  &#8226;   <a href="#hashlib">hashlib</a>
  &#8226;   <a href="#http.cookiejar">http.cookiejar</a>
@@ -26384,6 +26915,11 @@ imported by:
  &#8226;   <a href="#doctest">doctest</a>
  &#8226;   <a href="#email.utils">email.utils</a>
  &#8226;   <a href="#fileinput">fileinput</a>
+ &#8226;   <a href="#fiona">fiona</a>
+ &#8226;   <a href="#fiona._path">fiona._path</a>
+ &#8226;   <a href="#fiona.drvsupport">fiona.drvsupport</a>
+ &#8226;   <a href="#fiona.env">fiona.env</a>
+ &#8226;   <a href="#fiona.session">fiona.session</a>
  &#8226;   <a href="#fnmatch">fnmatch</a>
  &#8226;   <a href="#frozenlist">frozenlist</a>
  &#8226;   <a href="#genericpath">genericpath</a>
@@ -39433,6 +39969,9 @@ imported by:
  &#8226;   <a href="#aiohttp.helpers">aiohttp.helpers</a>
  &#8226;   <a href="#aiohttp.web_fileresponse">aiohttp.web_fileresponse</a>
  &#8226;   <a href="#aiohttp.web_urldispatcher">aiohttp.web_urldispatcher</a>
+ &#8226;   <a href="#fiona">fiona</a>
+ &#8226;   <a href="#fiona._path">fiona._path</a>
+ &#8226;   <a href="#fiona.collection">fiona.collection</a>
  &#8226;   <a href="#geopandas.io.file">geopandas.io.file</a>
  &#8226;   <a href="#importlib.metadata">importlib.metadata</a>
  &#8226;   <a href="#importlib.resources._common">importlib.resources._common</a>
@@ -40814,6 +41353,8 @@ imported by:
  &#8226;   <a href="#_pytest.terminal">_pytest.terminal</a>
  &#8226;   <a href="#aiohttp.helpers">aiohttp.helpers</a>
  &#8226;   <a href="#attr._compat">attr._compat</a>
+ &#8226;   <a href="#fiona">fiona</a>
+ &#8226;   <a href="#fiona._show_versions">fiona._show_versions</a>
  &#8226;   <a href="#geopandas.tools._show_versions">geopandas.tools._show_versions</a>
  &#8226;   <a href="#multidict._compat">multidict._compat</a>
  &#8226;   <a href="#numpy.f2py.crackfortran">numpy.f2py.crackfortran</a>
@@ -43033,6 +43574,10 @@ imported by:
  &#8226;   <a href="#email.quoprimime">email.quoprimime</a>
  &#8226;   <a href="#email.utils">email.utils</a>
  &#8226;   <a href="#encodings.idna">encodings.idna</a>
+ &#8226;   <a href="#fiona._path">fiona._path</a>
+ &#8226;   <a href="#fiona.env">fiona.env</a>
+ &#8226;   <a href="#fiona.rfc3339">fiona.rfc3339</a>
+ &#8226;   <a href="#fiona.vfs">fiona.vfs</a>
  &#8226;   <a href="#fnmatch">fnmatch</a>
  &#8226;   <a href="#fractions">fractions</a>
  &#8226;   <a href="#ftplib">ftplib</a>
@@ -43292,6 +43837,7 @@ imported by:
  &#8226;   <a href="#asyncio.format_helpers">asyncio.format_helpers</a>
  &#8226;   <a href="#bdb">bdb</a>
  &#8226;   <a href="#collections">collections</a>
+ &#8226;   <a href="#fiona.model">fiona.model</a>
  &#8226;   <a href="#functools">functools</a>
  &#8226;   <a href="#pydoc">pydoc</a>
 
@@ -45639,6 +46185,17 @@ imported by:
 </div>
 
 <div class="node">
+  <a name="swiftclient"></a>
+  <a target="code" href="" type="text/plain"><tt>swiftclient</tt></a>
+<span class="moduletype">MissingModule</span>  <div class="import">
+imported by:
+    <a href="#fiona.session">fiona.session</a>
+
+  </div>
+
+</div>
+
+<div class="node">
   <a name="sys"></a>
   <tt>sys</tt> <span class="moduletype"><i>(builtin module)</i></span>  <div class="import">
 imported by:
@@ -45691,6 +46248,7 @@ imported by:
  &#8226;   <a href="#aiohttp.web_urldispatcher">aiohttp.web_urldispatcher</a>
  &#8226;   <a href="#aiohttp.web_ws">aiohttp.web_ws</a>
  &#8226;   <a href="#aiohttp.worker">aiohttp.worker</a>
+ &#8226;   <a href="#app.py">app.py</a>
  &#8226;   <a href="#argparse">argparse</a>
  &#8226;   <a href="#ast">ast</a>
  &#8226;   <a href="#async_timeout">async_timeout</a>
@@ -45739,6 +46297,9 @@ imported by:
  &#8226;   <a href="#encodings.utf_32">encodings.utf_32</a>
  &#8226;   <a href="#enum">enum</a>
  &#8226;   <a href="#fileinput">fileinput</a>
+ &#8226;   <a href="#fiona._path">fiona._path</a>
+ &#8226;   <a href="#fiona._show_versions">fiona._show_versions</a>
+ &#8226;   <a href="#fiona.vfs">fiona.vfs</a>
  &#8226;   <a href="#fractions">fractions</a>
  &#8226;   <a href="#frozenlist">frozenlist</a>
  &#8226;   <a href="#ftplib">ftplib</a>
@@ -46162,6 +46723,7 @@ imported by:
  &#8226;   <a href="#concurrent.futures._base">concurrent.futures._base</a>
  &#8226;   <a href="#concurrent.futures.process">concurrent.futures.process</a>
  &#8226;   <a href="#concurrent.futures.thread">concurrent.futures.thread</a>
+ &#8226;   <a href="#fiona.env">fiona.env</a>
  &#8226;   <a href="#geopy.geocoders.base">geopy.geocoders.base</a>
  &#8226;   <a href="#http.cookiejar">http.cookiejar</a>
  &#8226;   <a href="#logging">logging</a>
@@ -47613,6 +48175,8 @@ imported by:
  &#8226;   <a href="#aiohttp.multipart">aiohttp.multipart</a>
  &#8226;   <a href="#aiohttp.web_request">aiohttp.web_request</a>
  &#8226;   <a href="#email.utils">email.utils</a>
+ &#8226;   <a href="#fiona._path">fiona._path</a>
+ &#8226;   <a href="#fiona.vfs">fiona.vfs</a>
  &#8226;   <a href="#geopandas.io.file">geopandas.io.file</a>
  &#8226;   <a href="#geopandas.io.util">geopandas.io.util</a>
  &#8226;   <a href="#geopy.adapters">geopy.adapters</a>
@@ -48630,6 +49194,7 @@ imported by:
     <a href="#_pytest._py.path">_pytest._py.path</a>
  &#8226;   <a href="#_pytest.pathlib">_pytest.pathlib</a>
  &#8226;   <a href="#aiohttp.multipart">aiohttp.multipart</a>
+ &#8226;   <a href="#fiona">fiona</a>
  &#8226;   <a href="#pandas._testing._io">pandas._testing._io</a>
  &#8226;   <a href="#pandas._testing.contexts">pandas._testing.contexts</a>
  &#8226;   <a href="#pandas.core.reshape.merge">pandas.core.reshape.merge</a>
@@ -48746,6 +49311,11 @@ imported by:
  &#8226;   <a href="#dateutil.zoneinfo">dateutil.zoneinfo</a>
  &#8226;   <a href="#enum">enum</a>
  &#8226;   <a href="#fileinput">fileinput</a>
+ &#8226;   <a href="#fiona">fiona</a>
+ &#8226;   <a href="#fiona.collection">fiona.collection</a>
+ &#8226;   <a href="#fiona.env">fiona.env</a>
+ &#8226;   <a href="#fiona.model">fiona.model</a>
+ &#8226;   <a href="#fiona.session">fiona.session</a>
  &#8226;   <a href="#ftplib">ftplib</a>
  &#8226;   <a href="#geopandas._config">geopandas._config</a>
  &#8226;   <a href="#geopandas.array">geopandas.array</a>
@@ -49431,6 +50001,7 @@ imports:
 imported by:
     <a href="#_elementtree">_elementtree</a>
  &#8226;   <a href="#_pytest.junitxml">_pytest.junitxml</a>
+ &#8226;   <a href="#fiona.meta">fiona.meta</a>
  &#8226;   <a href="#geopy.geocoders.ignfrance">geopy.geocoders.ignfrance</a>
  &#8226;   <a href="#pandas.io.formats.xml">pandas.io.formats.xml</a>
  &#8226;   <a href="#pandas.io.xml">pandas.io.xml</a>

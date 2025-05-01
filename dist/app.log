@@ -1,0 +1,44 @@
+2025-04-29 23:34:05,316 - INFO - Settings loaded successfully
+2025-04-29 23:35:05,319 - INFO - Starting process_gps_tasks
+2025-04-29 23:47:58,671 - INFO - Settings loaded successfully
+2025-04-29 23:48:58,672 - INFO - Starting process_gps_tasks
+2025-04-29 23:48:58,672 - INFO - Loading shapefiles
+2025-04-29 23:48:58,672 - INFO - Loading shapefile: data_map3/Th_Country_region.shp
+2025-04-29 23:48:58,704 - ERROR - Error loading shapefile data_map3/Th_Country_region.shp: The 'read_file' function requires the 'pyogrio' or 'fiona' package, but neither is installed or imports correctly.
+Importing pyogrio resulted in: GDAL DLL could not be found.  It must be on the system PATH.
+Importing fiona resulted in: No module named 'fiona'
+2025-04-29 23:48:58,704 - INFO - load shape file countries_gdf
+2025-04-29 23:48:58,704 - INFO - Loading shapefile: data_map3/Th_Province_region.shp
+2025-04-29 23:48:58,704 - ERROR - Error loading shapefile data_map3/Th_Province_region.shp: The 'read_file' function requires the 'pyogrio' or 'fiona' package, but neither is installed or imports correctly.
+Importing pyogrio resulted in: GDAL DLL could not be found.  It must be on the system PATH.
+Importing fiona resulted in: No module named 'fiona'
+2025-04-29 23:48:58,704 - INFO - load shape file provinces_gdf
+2025-04-29 23:48:58,704 - INFO - Loading shapefile: data_map3/Th_Amphoe_region.shp
+2025-04-29 23:48:58,704 - ERROR - Error loading shapefile data_map3/Th_Amphoe_region.shp: The 'read_file' function requires the 'pyogrio' or 'fiona' package, but neither is installed or imports correctly.
+Importing pyogrio resulted in: GDAL DLL could not be found.  It must be on the system PATH.
+Importing fiona resulted in: No module named 'fiona'
+2025-04-29 23:48:58,704 - INFO - load shape file amphur_gdf
+2025-04-29 23:48:58,704 - INFO - Loading shapefile: data_map3/Th_Tambon_region.shp
+2025-04-29 23:48:58,704 - ERROR - Error loading shapefile data_map3/Th_Tambon_region.shp: The 'read_file' function requires the 'pyogrio' or 'fiona' package, but neither is installed or imports correctly.
+Importing pyogrio resulted in: GDAL DLL could not be found.  It must be on the system PATH.
+Importing fiona resulted in: No module named 'fiona'
+2025-04-29 23:48:58,712 - INFO - load shape file tambon_gdf
+2025-04-29 23:48:58,712 - INFO - Shape Files : Loaded
+2025-04-29 23:48:58,978 - INFO - Connected to database
+2025-04-29 23:49:00,947 - INFO - Fetched 3500 records to process.
+2025-04-29 23:52:38,334 - INFO - Finished process_gps_detail
+2025-04-30 00:04:56,350 - INFO - Settings loaded successfully
+2025-04-30 00:05:56,354 - INFO - Starting process_gps_tasks
+2025-04-30 00:05:56,360 - INFO - Loading shapefiles
+2025-04-30 00:05:56,364 - INFO - Loading shapefile: data_map3/Th_Country_region.shp
+2025-04-30 00:06:07,768 - INFO - load shape file countries_gdf
+2025-04-30 00:06:07,770 - INFO - Loading shapefile: data_map3/Th_Province_region.shp
+2025-04-30 00:06:30,188 - INFO - load shape file provinces_gdf
+2025-04-30 00:06:30,188 - INFO - Loading shapefile: data_map3/Th_Amphoe_region.shp
+2025-04-30 00:07:40,516 - INFO - load shape file amphur_gdf
+2025-04-30 00:07:40,516 - INFO - Loading shapefile: data_map3/Th_Tambon_region.shp
+2025-04-30 00:07:43,205 - INFO - load shape file tambon_gdf
+2025-04-30 00:07:43,205 - INFO - Shape Files : Loaded
+2025-04-30 00:07:43,512 - INFO - Connected to database
+2025-04-30 00:07:45,626 - INFO - Fetched 3500 records to process.
+2025-04-30 00:11:25,881 - INFO - Finished process_gps_detail
