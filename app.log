@@ -2387,3 +2387,15 @@ UnboundLocalError: cannot access local variable 'total_records' where it is not 
 2025-05-01 00:50:59,017 - INFO - Connected to database
 2025-05-01 00:50:59,193 - INFO - Fetched 44 records to process.
 2025-05-01 00:51:00,502 - INFO - Finished process_gps_detail
+2025-05-02 15:45:36,263 - INFO - Settings loaded successfully
+2025-05-02 15:46:45,073 - INFO - Settings loaded successfully
+2025-05-02 15:47:45,073 - INFO - Starting process_gps_tasks
+2025-05-02 15:47:45,074 - INFO - Loading shapefiles
+2025-05-02 15:47:45,075 - INFO - Loading shapefile: data_map3/Th_Country_region.shp
+2025-05-02 15:47:45,307 - INFO - Loading shapefile: data_map3/Th_Province_region.shp
+2025-05-02 15:47:45,371 - INFO - Loading shapefile: data_map3/Th_Amphoe_region.shp
+2025-05-02 15:47:45,566 - INFO - Loading shapefile: data_map3/Th_Tambon_region.shp
+2025-05-02 15:47:46,092 - INFO - Shape Files : Loaded
+2025-05-02 15:47:46,353 - INFO - Connected to database
+2025-05-02 15:47:46,434 - INFO - Fetched 0 records to process.
+2025-05-02 15:47:46,510 - INFO - Finished process_gps_detail

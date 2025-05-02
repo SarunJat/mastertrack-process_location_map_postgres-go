@@ -359,8 +359,7 @@ def process_gps_detail_full_position(customer_id='3150'):
                   cur.execute(f"""
                     SELECT customer_id, mobile_id, event_datetime, event_status, latitude, longitude
                     FROM gps_detail
-                    WHERE customer_id=%s AND location IS NULL
-                    ORDER BY customer_id, mobile_id, event_datetime DESC
+                    WHERE customer_id=%s AND location IS NULL                 
                     LIMIT {limit_records}
                   """, (customer_id,))
                   rows = cur.fetchall()
