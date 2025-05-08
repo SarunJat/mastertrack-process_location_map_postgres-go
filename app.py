@@ -6,11 +6,11 @@ from geopy.distance import geodesic
 import time
 import schedule
 import json
-import logging # Import logging
+# import logging # Import logging
 import sys # Needed for sys.executable
 
 # --- Application Version ---
-APP_VERSION = "1.1.0" # Define the application version here
+APP_VERSION = "1.1.2" # Define the application version here
 
 def get_app_version():
     """Returns the application version string."""
@@ -39,13 +39,17 @@ def load_settings(config_file='settings.json'):
         with open(config_file, 'r') as f:
             SETTINGS = json.load(f)
         print("Settings loaded successfully")
-        logging.info("Settings loaded successfully") # Use logging
+        # logging.info("Settings loaded successfully") # Use logging
     except FileNotFoundError:
         print(f"Error: Config file '{config_file}' not found")
-        logging.error(f"Error: Config file '{config_file}' not found") # Use logging
+        # logging.error(f"Error: Config file '{config_file}' not found") # Use logging
+        input("Press Enter to exit...")  # Pause to allow viewing the error
+        sys.exit(1)
     except json.JSONDecodeError:
         print("Error: Invalid JSON format in settings file")
-        logging.error("Error: Invalid JSON format in settings file")
+        # logging.error("Error: Invalid JSON format in settings file")
+        input("Press Enter to exit...")  # Pause to allow viewing the error
+        sys.exit(1)
 
 def connect_setting_db():
     # return psycopg2.connect(**DB_CONFIG)
@@ -112,33 +116,38 @@ def load_location_cache():
                 FROM location
             """)
             location_cache = cur.fetchall()
-    print(time.strftime('%Y-%m-%d %H:%M:%S'),f"Mark location {len(location_cache)} records loaded.")
+    print(time.strftime('%Y-%m-%d %H:%M:%S'),f"Mark location all {len(location_cache)} records loaded.")
 
 
 def setup_logging():
     """Sets up logging to file and console."""
-    log_formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
-    log_file = 'app.log' # Log file will be created in the same directory as the exe
+    try:
+        log_formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
+        log_file = 'app.log' # Log file will be created in the same directory as the exe
 
-    # File Handler
-    file_handler = logging.FileHandler(log_file)
-    file_handler.setFormatter(log_formatter)
-    file_handler.setLevel(logging.INFO) # Log INFO level and above to file
+        # File Handler
+        file_handler = logging.FileHandler(log_file)
+        file_handler.setFormatter(log_formatter)
+        file_handler.setLevel(logging.INFO) # Log INFO level and above to file
 
-    # Console Handler (optional, but good for seeing output when run manually)
-    console_handler = logging.StreamHandler(sys.stdout)
-    console_handler.setFormatter(log_formatter)
-    console_handler.setLevel(logging.INFO) # Show INFO level and above on console
+        # Console Handler (optional, but good for seeing output when run manually)
+        console_handler = logging.StreamHandler(sys.stdout)
+        console_handler.setFormatter(log_formatter)
+        console_handler.setLevel(logging.INFO) # Show INFO level and above on console
 
-    # Get the root logger
-    logger = logging.getLogger()
-    logger.setLevel(logging.INFO) # Set root logger level
-    logger.addHandler(file_handler)
-    # logger.addHandler(console_handler) # Uncomment to also see logs in console if it stays open
+        # Get the root logger
+        logger = logging.getLogger()
+        logger.setLevel(logging.INFO) # Set root logger level
+        logger.addHandler(file_handler)
+        # logger.addHandler(console_handler) # Uncomment to also see logs in console if it stays open
 
-    # Redirect print statements to logging (optional)
-    # sys.stdout = StreamToLogger(logging.getLogger('STDOUT'), logging.INFO)
-    # sys.stderr = StreamToLogger(logging.getLogger('STDERR'), logging.ERROR)
+        # Redirect print statements to logging (optional)
+        # sys.stdout = StreamToLogger(logging.getLogger('STDOUT'), logging.INFO)
+        # sys.stderr = StreamToLogger(logging.getLogger('STDERR'), logging.ERROR)
+    except Exception as e:
+        print(f"Error setting up logging: {e}")
+        input("Press Enter to exit...")  # Pause to allow viewing the error
+        sys.exit(1)
 
 
 def find_layer_by_point(gps_point, layer_gdf, name_field, is_province=False):
@@ -345,6 +354,7 @@ def process_gps_detail():
 
 def process_gps_detail_full_position(customer_id='3150'):
     print(time.strftime('%Y-%m-%d %H:%M:%S'),'Start process_gps_detail_full_position',customer_id)
+    logging.info(f"Start process_gps_detail_full_position {customer_id}") # Use logging
 
     try:
         with connect_db() as conn:
@@ -433,25 +443,31 @@ def process_gps_tasks():
     
 
 def main():
-     # Print the version first
-    print(f"--- MasterTrack Location Processor v{get_app_version()} ---")
-    setup_logging()
-    load_settings()
-    # Load location cache every 4 hours
-    schedule.every(SETTINGS.get("loop_getlocation_every_hours", 4)).hours.do(load_location_cache)
+    try:
+        print(f"--- MasterTrack Location Processor v{get_app_version()} ---")
+        
+        setup_logging()
+        logging.info("Starting application") # Use logging
+        load_settings()
+        logging.info("Settings loaded") # Use logging
+        # Load location cache every 4 hours
+        schedule.every(SETTINGS.get("loop_getlocation_every_hours", 4)).hours.do(load_location_cache)
 
-    # Process GPS details every 5 minutes
-    schedule.every(SETTINGS.get("loop_process_every_seconds", 4)).seconds.do(process_gps_tasks)
-    # schedule.every(1).minutes.do(lambda: (process_gps_detail(), process_gps_detail_3150_mark_olny()))
-    # schedule.every(1).minutes.do(process_gps_detail_3150_mark_olny)
+        # Process GPS details every 5 minutes
+        schedule.every(SETTINGS.get("loop_process_every_seconds", 4)).seconds.do(process_gps_tasks)
 
-    # Initial load of location cache
-    load_location_cache()
+        # Initial load of location cache
+        load_location_cache()
+        print(time.strftime('%Y-%m-%d %H:%M:%S'), 'Initial load of location cache')
+        logging.info("Initial load of location cache") # Use logging
 
-    while True:
-        schedule.run_pending()
-        # Uncomment the sleep statement to avoid busy waiting
-        # time.sleep(1)
+        while True:
+            schedule.run_pending()
+            time.sleep(1)  # Avoid busy waiting
+    except Exception as e:
+        # logging.exception("Unhandled exception occurred in the main function")
+        print(f"Error: {e}")
+        input("Press Enter to exit...")  # Pause to allow viewing the error
 
 if __name__ == "__main__":
     main()
