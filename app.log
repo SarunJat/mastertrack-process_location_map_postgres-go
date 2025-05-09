@@ -9473,3 +9473,1078 @@ UnboundLocalError: cannot access local variable 'total_records' where it is not 
 2025-05-09 00:05:03,191 - INFO - Finished process_gps_detail
 2025-05-09 00:05:03,191 - INFO - Start process_gps_detail_full_position 3150
 2025-05-09 00:05:38,523 - INFO - Start process_gps_detail_full_position 3164
+2025-05-09 00:32:16 - Starting application
+2025-05-09 00:32:16 - Settings loaded successfully
+2025-05-09 00:32:16 - Settings loaded
+2025-05-09 00:32:21 - Initial load of location cache
+2025-05-09 00:33:16 - Starting process_gps_tasks
+2025-05-09 00:33:16 - Start process_gps_detail
+2025-05-09 00:33:16 - Loading shapefiles
+2025-05-09 00:33:16 - Loading shapefile: data_map3/Th_Country_region.shp
+2025-05-09 00:33:17 - Loading shapefile: data_map3/Th_Province_region.shp
+2025-05-09 00:33:17 - Loading shapefile: data_map3/Th_Amphoe_region.shp
+2025-05-09 00:33:17 - Loading shapefile: data_map3/Th_Tambon_region.shp
+2025-05-09 00:33:17 - Shape Files : Loaded
+2025-05-09 00:33:17 - Connected to database
+2025-05-09 00:33:17 - Fetched 28 records to process.
+2025-05-09 00:33:18 - Finished process_gps_detail
+2025-05-09 00:33:18 - Start process_gps_detail_full_position 3150
+2025-05-09 00:33:59 - Start process_gps_detail_full_position 3164
+2025-05-09 00:35:00 - Starting process_gps_tasks
+2025-05-09 00:35:00 - Start process_gps_detail
+2025-05-09 00:35:00 - Loading shapefiles
+2025-05-09 00:35:00 - Loading shapefile: data_map3/Th_Country_region.shp
+2025-05-09 00:35:00 - Loading shapefile: data_map3/Th_Province_region.shp
+2025-05-09 00:35:00 - Loading shapefile: data_map3/Th_Amphoe_region.shp
+2025-05-09 00:35:00 - Loading shapefile: data_map3/Th_Tambon_region.shp
+2025-05-09 00:35:00 - Shape Files : Loaded
+2025-05-09 00:35:01 - Connected to database
+2025-05-09 00:35:01 - Fetched 3 records to process.
+2025-05-09 00:35:01 - Finished process_gps_detail
+2025-05-09 00:35:01 - Start process_gps_detail_full_position 3150
+2025-05-09 00:35:36 - Start process_gps_detail_full_position 3164
+2025-05-09 00:36:43 - Starting process_gps_tasks
+2025-05-09 00:36:43 - Start process_gps_detail
+2025-05-09 00:36:43 - Loading shapefiles
+2025-05-09 00:36:43 - Loading shapefile: data_map3/Th_Country_region.shp
+2025-05-09 00:36:43 - Loading shapefile: data_map3/Th_Province_region.shp
+2025-05-09 00:36:43 - Loading shapefile: data_map3/Th_Amphoe_region.shp
+2025-05-09 00:36:43 - Loading shapefile: data_map3/Th_Tambon_region.shp
+2025-05-09 00:36:44 - Shape Files : Loaded
+2025-05-09 00:36:44 - Connected to database
+2025-05-09 00:36:44 - Fetched 22 records to process.
+2025-05-09 00:36:45 - Finished process_gps_detail
+2025-05-09 00:36:45 - Start process_gps_detail_full_position 3150
+2025-05-09 00:37:24 - Start process_gps_detail_full_position 3164
+2025-05-09 00:38:25 - Starting process_gps_tasks
+2025-05-09 00:38:25 - Start process_gps_detail
+2025-05-09 00:38:25 - Loading shapefiles
+2025-05-09 00:38:25 - Loading shapefile: data_map3/Th_Country_region.shp
+2025-05-09 00:38:25 - Loading shapefile: data_map3/Th_Province_region.shp
+2025-05-09 00:38:25 - Loading shapefile: data_map3/Th_Amphoe_region.shp
+2025-05-09 00:38:25 - Loading shapefile: data_map3/Th_Tambon_region.shp
+2025-05-09 00:38:25 - Shape Files : Loaded
+2025-05-09 00:38:25 - Connected to database
+2025-05-09 00:38:26 - Fetched 12 records to process.
+2025-05-09 00:38:26 - Finished process_gps_detail
+2025-05-09 00:38:26 - Start process_gps_detail_full_position 3150
+2025-05-09 00:39:09 - Start process_gps_detail_full_position 3164
+2025-05-09 00:40:16 - Starting process_gps_tasks
+2025-05-09 00:40:16 - Start process_gps_detail
+2025-05-09 00:40:16 - Loading shapefiles
+2025-05-09 00:40:16 - Loading shapefile: data_map3/Th_Country_region.shp
+2025-05-09 00:40:16 - Loading shapefile: data_map3/Th_Province_region.shp
+2025-05-09 00:40:16 - Loading shapefile: data_map3/Th_Amphoe_region.shp
+2025-05-09 00:40:16 - Loading shapefile: data_map3/Th_Tambon_region.shp
+2025-05-09 00:40:16 - Shape Files : Loaded
+2025-05-09 00:40:16 - Connected to database
+2025-05-09 00:40:16 - Fetched 27 records to process.
+2025-05-09 00:40:17 - Finished process_gps_detail
+2025-05-09 00:40:17 - Start process_gps_detail_full_position 3150
+2025-05-09 00:40:53 - Start process_gps_detail_full_position 3164
+2025-05-09 00:41:54 - Starting process_gps_tasks
+2025-05-09 00:41:54 - Start process_gps_detail
+2025-05-09 00:41:54 - Loading shapefiles
+2025-05-09 00:41:54 - Loading shapefile: data_map3/Th_Country_region.shp
+2025-05-09 00:41:54 - Loading shapefile: data_map3/Th_Province_region.shp
+2025-05-09 00:41:54 - Loading shapefile: data_map3/Th_Amphoe_region.shp
+2025-05-09 00:41:54 - Loading shapefile: data_map3/Th_Tambon_region.shp
+2025-05-09 00:41:54 - Shape Files : Loaded
+2025-05-09 00:41:54 - Connected to database
+2025-05-09 00:41:55 - Fetched 17 records to process.
+2025-05-09 00:41:55 - Finished process_gps_detail
+2025-05-09 00:41:55 - Start process_gps_detail_full_position 3150
+2025-05-09 00:42:34 - Start process_gps_detail_full_position 3164
+2025-05-09 00:43:41 - Starting process_gps_tasks
+2025-05-09 00:43:41 - Start process_gps_detail
+2025-05-09 00:43:41 - Loading shapefiles
+2025-05-09 00:43:41 - Loading shapefile: data_map3/Th_Country_region.shp
+2025-05-09 00:43:41 - Loading shapefile: data_map3/Th_Province_region.shp
+2025-05-09 00:43:41 - Loading shapefile: data_map3/Th_Amphoe_region.shp
+2025-05-09 00:43:41 - Loading shapefile: data_map3/Th_Tambon_region.shp
+2025-05-09 00:43:41 - Shape Files : Loaded
+2025-05-09 00:43:42 - Connected to database
+2025-05-09 00:43:42 - Fetched 11 records to process.
+2025-05-09 00:43:42 - Finished process_gps_detail
+2025-05-09 00:43:42 - Start process_gps_detail_full_position 3150
+2025-05-09 00:44:17 - Start process_gps_detail_full_position 3164
+2025-05-09 00:45:24 - Starting process_gps_tasks
+2025-05-09 00:45:24 - Start process_gps_detail
+2025-05-09 00:45:24 - Loading shapefiles
+2025-05-09 00:45:24 - Loading shapefile: data_map3/Th_Country_region.shp
+2025-05-09 00:45:24 - Loading shapefile: data_map3/Th_Province_region.shp
+2025-05-09 00:45:24 - Loading shapefile: data_map3/Th_Amphoe_region.shp
+2025-05-09 00:45:24 - Loading shapefile: data_map3/Th_Tambon_region.shp
+2025-05-09 00:45:24 - Shape Files : Loaded
+2025-05-09 00:45:24 - Connected to database
+2025-05-09 00:45:24 - Fetched 17 records to process.
+2025-05-09 00:45:25 - Finished process_gps_detail
+2025-05-09 00:45:25 - Start process_gps_detail_full_position 3150
+2025-05-09 00:46:03 - Start process_gps_detail_full_position 3164
+2025-05-09 00:47:04 - Starting process_gps_tasks
+2025-05-09 00:47:04 - Start process_gps_detail
+2025-05-09 00:47:04 - Loading shapefiles
+2025-05-09 00:47:04 - Loading shapefile: data_map3/Th_Country_region.shp
+2025-05-09 00:47:04 - Loading shapefile: data_map3/Th_Province_region.shp
+2025-05-09 00:47:04 - Loading shapefile: data_map3/Th_Amphoe_region.shp
+2025-05-09 00:47:04 - Loading shapefile: data_map3/Th_Tambon_region.shp
+2025-05-09 00:47:04 - Shape Files : Loaded
+2025-05-09 00:47:04 - Connected to database
+2025-05-09 00:47:04 - Fetched 22 records to process.
+2025-05-09 00:47:05 - Finished process_gps_detail
+2025-05-09 00:47:05 - Start process_gps_detail_full_position 3150
+2025-05-09 00:47:45 - Start process_gps_detail_full_position 3164
+2025-05-09 00:48:48 - Starting process_gps_tasks
+2025-05-09 00:48:48 - Start process_gps_detail
+2025-05-09 00:48:48 - Loading shapefiles
+2025-05-09 00:48:48 - Loading shapefile: data_map3/Th_Country_region.shp
+2025-05-09 00:48:48 - Loading shapefile: data_map3/Th_Province_region.shp
+2025-05-09 00:48:48 - Loading shapefile: data_map3/Th_Amphoe_region.shp
+2025-05-09 00:48:49 - Loading shapefile: data_map3/Th_Tambon_region.shp
+2025-05-09 00:48:49 - Shape Files : Loaded
+2025-05-09 00:48:49 - Connected to database
+2025-05-09 00:48:49 - Fetched 17 records to process.
+2025-05-09 00:48:50 - Finished process_gps_detail
+2025-05-09 00:48:50 - Start process_gps_detail_full_position 3150
+2025-05-09 00:49:26 - Start process_gps_detail_full_position 3164
+2025-05-09 00:50:27 - Starting process_gps_tasks
+2025-05-09 00:50:27 - Start process_gps_detail
+2025-05-09 00:50:27 - Loading shapefiles
+2025-05-09 00:50:27 - Loading shapefile: data_map3/Th_Country_region.shp
+2025-05-09 00:50:27 - Loading shapefile: data_map3/Th_Province_region.shp
+2025-05-09 00:50:27 - Loading shapefile: data_map3/Th_Amphoe_region.shp
+2025-05-09 00:50:27 - Loading shapefile: data_map3/Th_Tambon_region.shp
+2025-05-09 00:50:27 - Shape Files : Loaded
+2025-05-09 00:50:27 - Connected to database
+2025-05-09 00:50:27 - Fetched 0 records to process.
+2025-05-09 00:50:27 - Finished process_gps_detail
+2025-05-09 00:50:27 - Start process_gps_detail_full_position 3150
+2025-05-09 00:51:04 - Start process_gps_detail_full_position 3164
+2025-05-09 00:52:10 - Starting process_gps_tasks
+2025-05-09 00:52:10 - Start process_gps_detail
+2025-05-09 00:52:10 - Loading shapefiles
+2025-05-09 00:52:10 - Loading shapefile: data_map3/Th_Country_region.shp
+2025-05-09 00:52:10 - Loading shapefile: data_map3/Th_Province_region.shp
+2025-05-09 00:52:10 - Loading shapefile: data_map3/Th_Amphoe_region.shp
+2025-05-09 00:52:10 - Loading shapefile: data_map3/Th_Tambon_region.shp
+2025-05-09 00:52:11 - Shape Files : Loaded
+2025-05-09 00:52:11 - Connected to database
+2025-05-09 00:52:11 - Fetched 35 records to process.
+2025-05-09 00:52:12 - Finished process_gps_detail
+2025-05-09 00:52:12 - Start process_gps_detail_full_position 3150
+2025-05-09 00:52:49 - Start process_gps_detail_full_position 3164
+2025-05-09 00:53:50 - Starting process_gps_tasks
+2025-05-09 00:53:50 - Start process_gps_detail
+2025-05-09 00:53:50 - Loading shapefiles
+2025-05-09 00:53:50 - Loading shapefile: data_map3/Th_Country_region.shp
+2025-05-09 00:53:50 - Loading shapefile: data_map3/Th_Province_region.shp
+2025-05-09 00:53:50 - Loading shapefile: data_map3/Th_Amphoe_region.shp
+2025-05-09 00:53:50 - Loading shapefile: data_map3/Th_Tambon_region.shp
+2025-05-09 00:53:50 - Shape Files : Loaded
+2025-05-09 00:53:50 - Connected to database
+2025-05-09 00:53:50 - Fetched 0 records to process.
+2025-05-09 00:53:50 - Finished process_gps_detail
+2025-05-09 00:53:50 - Start process_gps_detail_full_position 3150
+2025-05-09 00:54:27 - Start process_gps_detail_full_position 3164
+2025-05-09 00:55:30 - Starting process_gps_tasks
+2025-05-09 00:55:30 - Start process_gps_detail
+2025-05-09 00:55:30 - Loading shapefiles
+2025-05-09 00:55:30 - Loading shapefile: data_map3/Th_Country_region.shp
+2025-05-09 00:55:30 - Loading shapefile: data_map3/Th_Province_region.shp
+2025-05-09 00:55:30 - Loading shapefile: data_map3/Th_Amphoe_region.shp
+2025-05-09 00:55:30 - Loading shapefile: data_map3/Th_Tambon_region.shp
+2025-05-09 00:55:31 - Shape Files : Loaded
+2025-05-09 00:55:31 - Connected to database
+2025-05-09 00:55:31 - Fetched 26 records to process.
+2025-05-09 00:55:32 - Finished process_gps_detail
+2025-05-09 00:55:32 - Start process_gps_detail_full_position 3150
+2025-05-09 00:56:08 - Start process_gps_detail_full_position 3164
+2025-05-09 00:57:08 - Starting process_gps_tasks
+2025-05-09 00:57:08 - Start process_gps_detail
+2025-05-09 00:57:08 - Loading shapefiles
+2025-05-09 00:57:08 - Loading shapefile: data_map3/Th_Country_region.shp
+2025-05-09 00:57:08 - Loading shapefile: data_map3/Th_Province_region.shp
+2025-05-09 00:57:08 - Loading shapefile: data_map3/Th_Amphoe_region.shp
+2025-05-09 00:57:09 - Loading shapefile: data_map3/Th_Tambon_region.shp
+2025-05-09 00:57:09 - Shape Files : Loaded
+2025-05-09 00:57:09 - Connected to database
+2025-05-09 00:57:09 - Fetched 20 records to process.
+2025-05-09 00:57:10 - Finished process_gps_detail
+2025-05-09 00:57:10 - Start process_gps_detail_full_position 3150
+2025-05-09 00:57:46 - Start process_gps_detail_full_position 3164
+2025-05-09 00:58:52 - Starting process_gps_tasks
+2025-05-09 00:58:52 - Start process_gps_detail
+2025-05-09 00:58:52 - Loading shapefiles
+2025-05-09 00:58:52 - Loading shapefile: data_map3/Th_Country_region.shp
+2025-05-09 00:58:52 - Loading shapefile: data_map3/Th_Province_region.shp
+2025-05-09 00:58:52 - Loading shapefile: data_map3/Th_Amphoe_region.shp
+2025-05-09 00:58:52 - Loading shapefile: data_map3/Th_Tambon_region.shp
+2025-05-09 00:58:52 - Shape Files : Loaded
+2025-05-09 00:58:52 - Connected to database
+2025-05-09 00:58:52 - Fetched 14 records to process.
+2025-05-09 00:58:53 - Finished process_gps_detail
+2025-05-09 00:58:53 - Start process_gps_detail_full_position 3150
+2025-05-09 00:59:28 - Start process_gps_detail_full_position 3164
+2025-05-09 01:00:28 - Starting process_gps_tasks
+2025-05-09 01:00:28 - Start process_gps_detail
+2025-05-09 01:00:28 - Loading shapefiles
+2025-05-09 01:00:28 - Loading shapefile: data_map3/Th_Country_region.shp
+2025-05-09 01:00:28 - Loading shapefile: data_map3/Th_Province_region.shp
+2025-05-09 01:00:28 - Loading shapefile: data_map3/Th_Amphoe_region.shp
+2025-05-09 01:00:28 - Loading shapefile: data_map3/Th_Tambon_region.shp
+2025-05-09 01:00:28 - Shape Files : Loaded
+2025-05-09 01:00:28 - Connected to database
+2025-05-09 01:00:29 - Fetched 8 records to process.
+2025-05-09 01:00:29 - Finished process_gps_detail
+2025-05-09 01:00:29 - Start process_gps_detail_full_position 3150
+2025-05-09 01:01:05 - Start process_gps_detail_full_position 3164
+2025-05-09 01:02:09 - Starting process_gps_tasks
+2025-05-09 01:02:09 - Start process_gps_detail
+2025-05-09 01:02:09 - Loading shapefiles
+2025-05-09 01:02:09 - Loading shapefile: data_map3/Th_Country_region.shp
+2025-05-09 01:02:09 - Loading shapefile: data_map3/Th_Province_region.shp
+2025-05-09 01:02:09 - Loading shapefile: data_map3/Th_Amphoe_region.shp
+2025-05-09 01:02:09 - Loading shapefile: data_map3/Th_Tambon_region.shp
+2025-05-09 01:02:10 - Shape Files : Loaded
+2025-05-09 01:02:10 - Connected to database
+2025-05-09 01:02:10 - Fetched 32 records to process.
+2025-05-09 01:02:11 - Finished process_gps_detail
+2025-05-09 01:02:11 - Start process_gps_detail_full_position 3150
+2025-05-09 01:02:41 - Query timeout occurred, consider reducing limit_records in settings.json
+2025-05-09 01:02:41 - Automatically reduced limit_records to 3500
+2025-05-09 01:02:41 - Start process_gps_detail_full_position 3164
+2025-05-09 01:03:42 - Starting process_gps_tasks
+2025-05-09 01:03:42 - Start process_gps_detail
+2025-05-09 01:03:42 - Loading shapefiles
+2025-05-09 01:03:42 - Loading shapefile: data_map3/Th_Country_region.shp
+2025-05-09 01:03:42 - Loading shapefile: data_map3/Th_Province_region.shp
+2025-05-09 01:03:42 - Loading shapefile: data_map3/Th_Amphoe_region.shp
+2025-05-09 01:03:42 - Loading shapefile: data_map3/Th_Tambon_region.shp
+2025-05-09 01:03:42 - Shape Files : Loaded
+2025-05-09 01:03:43 - Connected to database
+2025-05-09 01:03:43 - Fetched 0 records to process.
+2025-05-09 01:03:43 - Finished process_gps_detail
+2025-05-09 01:03:43 - Start process_gps_detail_full_position 3150
+2025-05-09 01:04:20 - Start process_gps_detail_full_position 3164
+2025-05-09 01:05:21 - Starting process_gps_tasks
+2025-05-09 01:05:21 - Start process_gps_detail
+2025-05-09 01:05:21 - Loading shapefiles
+2025-05-09 01:05:21 - Loading shapefile: data_map3/Th_Country_region.shp
+2025-05-09 01:05:21 - Loading shapefile: data_map3/Th_Province_region.shp
+2025-05-09 01:05:21 - Loading shapefile: data_map3/Th_Amphoe_region.shp
+2025-05-09 01:05:21 - Loading shapefile: data_map3/Th_Tambon_region.shp
+2025-05-09 01:05:21 - Shape Files : Loaded
+2025-05-09 01:05:22 - Connected to database
+2025-05-09 01:05:22 - Fetched 9 records to process.
+2025-05-09 01:05:22 - Finished process_gps_detail
+2025-05-09 01:05:22 - Start process_gps_detail_full_position 3150
+2025-05-09 01:05:52 - Query timeout occurred, consider reducing limit_records in settings.json
+2025-05-09 01:05:52 - Automatically reduced limit_records to 1750
+2025-05-09 01:05:53 - Start process_gps_detail_full_position 3164
+2025-05-09 01:06:57 - Starting process_gps_tasks
+2025-05-09 01:06:57 - Start process_gps_detail
+2025-05-09 01:06:57 - Loading shapefiles
+2025-05-09 01:06:57 - Loading shapefile: data_map3/Th_Country_region.shp
+2025-05-09 01:06:57 - Loading shapefile: data_map3/Th_Province_region.shp
+2025-05-09 01:06:57 - Loading shapefile: data_map3/Th_Amphoe_region.shp
+2025-05-09 01:06:58 - Loading shapefile: data_map3/Th_Tambon_region.shp
+2025-05-09 01:06:58 - Shape Files : Loaded
+2025-05-09 01:06:58 - Connected to database
+2025-05-09 01:06:58 - Fetched 14 records to process.
+2025-05-09 01:06:59 - Finished process_gps_detail
+2025-05-09 01:06:59 - Start process_gps_detail_full_position 3150
+2025-05-09 01:07:36 - Start process_gps_detail_full_position 3164
+2025-05-09 01:08:36 - Starting process_gps_tasks
+2025-05-09 01:08:36 - Start process_gps_detail
+2025-05-09 01:08:36 - Loading shapefiles
+2025-05-09 01:08:36 - Loading shapefile: data_map3/Th_Country_region.shp
+2025-05-09 01:08:36 - Loading shapefile: data_map3/Th_Province_region.shp
+2025-05-09 01:08:36 - Loading shapefile: data_map3/Th_Amphoe_region.shp
+2025-05-09 01:08:36 - Loading shapefile: data_map3/Th_Tambon_region.shp
+2025-05-09 01:08:36 - Shape Files : Loaded
+2025-05-09 01:08:37 - Connected to database
+2025-05-09 01:08:37 - Fetched 0 records to process.
+2025-05-09 01:08:37 - Finished process_gps_detail
+2025-05-09 01:08:37 - Start process_gps_detail_full_position 3150
+2025-05-09 01:09:14 - Start process_gps_detail_full_position 3164
+2025-05-09 01:10:19 - Starting process_gps_tasks
+2025-05-09 01:10:19 - Start process_gps_detail
+2025-05-09 01:10:19 - Loading shapefiles
+2025-05-09 01:10:19 - Loading shapefile: data_map3/Th_Country_region.shp
+2025-05-09 01:10:19 - Loading shapefile: data_map3/Th_Province_region.shp
+2025-05-09 01:10:19 - Loading shapefile: data_map3/Th_Amphoe_region.shp
+2025-05-09 01:10:19 - Loading shapefile: data_map3/Th_Tambon_region.shp
+2025-05-09 01:10:19 - Shape Files : Loaded
+2025-05-09 01:10:20 - Connected to database
+2025-05-09 01:10:20 - Fetched 33 records to process.
+2025-05-09 01:10:21 - Finished process_gps_detail
+2025-05-09 01:10:21 - Start process_gps_detail_full_position 3150
+2025-05-09 01:10:54 - Start process_gps_detail_full_position 3164
+2025-05-09 01:11:55 - Starting process_gps_tasks
+2025-05-09 01:11:55 - Start process_gps_detail
+2025-05-09 01:11:55 - Loading shapefiles
+2025-05-09 01:11:55 - Loading shapefile: data_map3/Th_Country_region.shp
+2025-05-09 01:11:55 - Loading shapefile: data_map3/Th_Province_region.shp
+2025-05-09 01:11:55 - Loading shapefile: data_map3/Th_Amphoe_region.shp
+2025-05-09 01:11:55 - Loading shapefile: data_map3/Th_Tambon_region.shp
+2025-05-09 01:11:55 - Shape Files : Loaded
+2025-05-09 01:11:55 - Connected to database
+2025-05-09 01:11:55 - Fetched 0 records to process.
+2025-05-09 01:11:56 - Finished process_gps_detail
+2025-05-09 01:11:56 - Start process_gps_detail_full_position 3150
+2025-05-09 01:12:26 - Query timeout occurred, consider reducing limit_records in settings.json
+2025-05-09 01:12:26 - Automatically reduced limit_records to 875
+2025-05-09 01:12:26 - Start process_gps_detail_full_position 3164
+2025-05-09 01:13:30 - Starting process_gps_tasks
+2025-05-09 01:13:30 - Start process_gps_detail
+2025-05-09 01:13:30 - Loading shapefiles
+2025-05-09 01:13:30 - Loading shapefile: data_map3/Th_Country_region.shp
+2025-05-09 01:13:30 - Loading shapefile: data_map3/Th_Province_region.shp
+2025-05-09 01:13:30 - Loading shapefile: data_map3/Th_Amphoe_region.shp
+2025-05-09 01:13:30 - Loading shapefile: data_map3/Th_Tambon_region.shp
+2025-05-09 01:13:30 - Shape Files : Loaded
+2025-05-09 01:13:31 - Connected to database
+2025-05-09 01:13:31 - Fetched 32 records to process.
+2025-05-09 01:13:32 - Finished process_gps_detail
+2025-05-09 01:13:32 - Start process_gps_detail_full_position 3150
+2025-05-09 01:14:02 - Query timeout occurred, consider reducing limit_records in settings.json
+2025-05-09 01:14:02 - Start process_gps_detail_full_position 3164
+2025-05-09 01:15:03 - Starting process_gps_tasks
+2025-05-09 01:15:03 - Start process_gps_detail
+2025-05-09 01:15:03 - Loading shapefiles
+2025-05-09 01:15:03 - Loading shapefile: data_map3/Th_Country_region.shp
+2025-05-09 01:15:03 - Loading shapefile: data_map3/Th_Province_region.shp
+2025-05-09 01:15:03 - Loading shapefile: data_map3/Th_Amphoe_region.shp
+2025-05-09 01:15:03 - Loading shapefile: data_map3/Th_Tambon_region.shp
+2025-05-09 01:15:03 - Shape Files : Loaded
+2025-05-09 01:15:03 - Connected to database
+2025-05-09 01:15:03 - Fetched 4 records to process.
+2025-05-09 01:15:04 - Finished process_gps_detail
+2025-05-09 01:15:04 - Start process_gps_detail_full_position 3150
+2025-05-09 01:15:34 - Query timeout occurred, consider reducing limit_records in settings.json
+2025-05-09 01:15:34 - Start process_gps_detail_full_position 3164
+2025-05-09 01:16:39 - Starting process_gps_tasks
+2025-05-09 01:16:39 - Start process_gps_detail
+2025-05-09 01:16:39 - Loading shapefiles
+2025-05-09 01:16:39 - Loading shapefile: data_map3/Th_Country_region.shp
+2025-05-09 01:16:39 - Loading shapefile: data_map3/Th_Province_region.shp
+2025-05-09 01:16:39 - Loading shapefile: data_map3/Th_Amphoe_region.shp
+2025-05-09 01:16:39 - Loading shapefile: data_map3/Th_Tambon_region.shp
+2025-05-09 01:16:39 - Shape Files : Loaded
+2025-05-09 01:16:39 - Connected to database
+2025-05-09 01:16:39 - Fetched 17 records to process.
+2025-05-09 01:16:40 - Finished process_gps_detail
+2025-05-09 01:16:40 - Start process_gps_detail_full_position 3150
+2025-05-09 01:17:10 - Query timeout occurred, consider reducing limit_records in settings.json
+2025-05-09 01:17:11 - Start process_gps_detail_full_position 3164
+2025-05-09 01:18:11 - Starting process_gps_tasks
+2025-05-09 01:18:11 - Start process_gps_detail
+2025-05-09 01:18:11 - Loading shapefiles
+2025-05-09 01:18:11 - Loading shapefile: data_map3/Th_Country_region.shp
+2025-05-09 01:18:11 - Loading shapefile: data_map3/Th_Province_region.shp
+2025-05-09 01:18:11 - Loading shapefile: data_map3/Th_Amphoe_region.shp
+2025-05-09 01:18:11 - Loading shapefile: data_map3/Th_Tambon_region.shp
+2025-05-09 01:18:11 - Shape Files : Loaded
+2025-05-09 01:18:12 - Connected to database
+2025-05-09 01:18:12 - Fetched 10 records to process.
+2025-05-09 01:18:12 - Finished process_gps_detail
+2025-05-09 01:18:12 - Start process_gps_detail_full_position 3150
+2025-05-09 01:18:49 - Start process_gps_detail_full_position 3164
+2025-05-09 01:19:50 - Starting process_gps_tasks
+2025-05-09 01:19:50 - Start process_gps_detail
+2025-05-09 01:19:50 - Loading shapefiles
+2025-05-09 01:19:50 - Loading shapefile: data_map3/Th_Country_region.shp
+2025-05-09 01:19:50 - Loading shapefile: data_map3/Th_Province_region.shp
+2025-05-09 01:19:50 - Loading shapefile: data_map3/Th_Amphoe_region.shp
+2025-05-09 01:19:50 - Loading shapefile: data_map3/Th_Tambon_region.shp
+2025-05-09 01:19:50 - Shape Files : Loaded
+2025-05-09 01:19:51 - Connected to database
+2025-05-09 01:19:51 - Fetched 0 records to process.
+2025-05-09 01:19:51 - Finished process_gps_detail
+2025-05-09 01:19:51 - Start process_gps_detail_full_position 3150
+2025-05-09 01:20:21 - Query timeout occurred, consider reducing limit_records in settings.json
+2025-05-09 01:20:21 - Start process_gps_detail_full_position 3164
+2025-05-09 01:21:25 - Starting process_gps_tasks
+2025-05-09 01:21:25 - Start process_gps_detail
+2025-05-09 01:21:25 - Loading shapefiles
+2025-05-09 01:21:25 - Loading shapefile: data_map3/Th_Country_region.shp
+2025-05-09 01:21:25 - Loading shapefile: data_map3/Th_Province_region.shp
+2025-05-09 01:21:25 - Loading shapefile: data_map3/Th_Amphoe_region.shp
+2025-05-09 01:21:25 - Loading shapefile: data_map3/Th_Tambon_region.shp
+2025-05-09 01:21:25 - Shape Files : Loaded
+2025-05-09 01:21:25 - Connected to database
+2025-05-09 01:21:26 - Fetched 17 records to process.
+2025-05-09 01:21:26 - Finished process_gps_detail
+2025-05-09 01:21:26 - Start process_gps_detail_full_position 3150
+2025-05-09 01:21:57 - Query timeout occurred, consider reducing limit_records in settings.json
+2025-05-09 01:21:57 - Start process_gps_detail_full_position 3164
+2025-05-09 01:22:57 - Starting process_gps_tasks
+2025-05-09 01:22:57 - Start process_gps_detail
+2025-05-09 01:22:57 - Loading shapefiles
+2025-05-09 01:22:57 - Loading shapefile: data_map3/Th_Country_region.shp
+2025-05-09 01:22:57 - Loading shapefile: data_map3/Th_Province_region.shp
+2025-05-09 01:22:57 - Loading shapefile: data_map3/Th_Amphoe_region.shp
+2025-05-09 01:22:57 - Loading shapefile: data_map3/Th_Tambon_region.shp
+2025-05-09 01:22:57 - Shape Files : Loaded
+2025-05-09 01:22:58 - Connected to database
+2025-05-09 01:22:58 - Fetched 0 records to process.
+2025-05-09 01:22:58 - Finished process_gps_detail
+2025-05-09 01:22:58 - Start process_gps_detail_full_position 3150
+2025-05-09 01:23:28 - Query timeout occurred, consider reducing limit_records in settings.json
+2025-05-09 01:23:28 - Start process_gps_detail_full_position 3164
+2025-05-09 01:24:33 - Starting process_gps_tasks
+2025-05-09 01:24:33 - Start process_gps_detail
+2025-05-09 01:24:33 - Loading shapefiles
+2025-05-09 01:24:33 - Loading shapefile: data_map3/Th_Country_region.shp
+2025-05-09 01:24:34 - Loading shapefile: data_map3/Th_Province_region.shp
+2025-05-09 01:24:34 - Loading shapefile: data_map3/Th_Amphoe_region.shp
+2025-05-09 01:24:34 - Loading shapefile: data_map3/Th_Tambon_region.shp
+2025-05-09 01:24:34 - Shape Files : Loaded
+2025-05-09 01:24:34 - Connected to database
+2025-05-09 01:24:34 - Fetched 25 records to process.
+2025-05-09 01:24:35 - Finished process_gps_detail
+2025-05-09 01:24:35 - Start process_gps_detail_full_position 3150
+2025-05-09 01:25:05 - Query timeout occurred, consider reducing limit_records in settings.json
+2025-05-09 01:25:05 - Start process_gps_detail_full_position 3164
+2025-05-09 01:26:06 - Starting process_gps_tasks
+2025-05-09 01:26:06 - Start process_gps_detail
+2025-05-09 01:26:06 - Loading shapefiles
+2025-05-09 01:26:06 - Loading shapefile: data_map3/Th_Country_region.shp
+2025-05-09 01:26:06 - Loading shapefile: data_map3/Th_Province_region.shp
+2025-05-09 01:26:06 - Loading shapefile: data_map3/Th_Amphoe_region.shp
+2025-05-09 01:26:06 - Loading shapefile: data_map3/Th_Tambon_region.shp
+2025-05-09 01:26:06 - Shape Files : Loaded
+2025-05-09 01:26:06 - Connected to database
+2025-05-09 01:26:07 - Fetched 16 records to process.
+2025-05-09 01:26:07 - Finished process_gps_detail
+2025-05-09 01:26:07 - Start process_gps_detail_full_position 3150
+2025-05-09 01:26:37 - Query timeout occurred, consider reducing limit_records in settings.json
+2025-05-09 01:26:38 - Start process_gps_detail_full_position 3164
+2025-05-09 01:27:42 - Starting process_gps_tasks
+2025-05-09 01:27:42 - Start process_gps_detail
+2025-05-09 01:27:42 - Loading shapefiles
+2025-05-09 01:27:42 - Loading shapefile: data_map3/Th_Country_region.shp
+2025-05-09 01:27:42 - Loading shapefile: data_map3/Th_Province_region.shp
+2025-05-09 01:27:42 - Loading shapefile: data_map3/Th_Amphoe_region.shp
+2025-05-09 01:27:42 - Loading shapefile: data_map3/Th_Tambon_region.shp
+2025-05-09 01:27:42 - Shape Files : Loaded
+2025-05-09 01:27:43 - Connected to database
+2025-05-09 01:27:43 - Fetched 12 records to process.
+2025-05-09 01:27:43 - Finished process_gps_detail
+2025-05-09 01:27:43 - Start process_gps_detail_full_position 3150
+2025-05-09 01:28:13 - Query timeout occurred, consider reducing limit_records in settings.json
+2025-05-09 01:28:13 - Start process_gps_detail_full_position 3164
+2025-05-09 01:29:17 - Starting process_gps_tasks
+2025-05-09 01:29:17 - Start process_gps_detail
+2025-05-09 01:29:17 - Loading shapefiles
+2025-05-09 01:29:17 - Loading shapefile: data_map3/Th_Country_region.shp
+2025-05-09 01:29:17 - Loading shapefile: data_map3/Th_Province_region.shp
+2025-05-09 01:29:17 - Loading shapefile: data_map3/Th_Amphoe_region.shp
+2025-05-09 01:29:17 - Loading shapefile: data_map3/Th_Tambon_region.shp
+2025-05-09 01:29:17 - Shape Files : Loaded
+2025-05-09 01:29:17 - Connected to database
+2025-05-09 01:29:17 - Fetched 21 records to process.
+2025-05-09 01:29:18 - Finished process_gps_detail
+2025-05-09 01:29:18 - Start process_gps_detail_full_position 3150
+2025-05-09 01:29:48 - Query timeout occurred, consider reducing limit_records in settings.json
+2025-05-09 01:29:48 - Start process_gps_detail_full_position 3164
+2025-05-09 01:30:51 - Starting process_gps_tasks
+2025-05-09 01:30:51 - Start process_gps_detail
+2025-05-09 01:30:51 - Loading shapefiles
+2025-05-09 01:30:51 - Loading shapefile: data_map3/Th_Country_region.shp
+2025-05-09 01:30:51 - Loading shapefile: data_map3/Th_Province_region.shp
+2025-05-09 01:30:51 - Loading shapefile: data_map3/Th_Amphoe_region.shp
+2025-05-09 01:30:51 - Loading shapefile: data_map3/Th_Tambon_region.shp
+2025-05-09 01:30:51 - Shape Files : Loaded
+2025-05-09 01:30:51 - Connected to database
+2025-05-09 01:30:52 - Fetched 9 records to process.
+2025-05-09 01:30:52 - Finished process_gps_detail
+2025-05-09 01:30:52 - Start process_gps_detail_full_position 3150
+2025-05-09 01:31:22 - Query timeout occurred, consider reducing limit_records in settings.json
+2025-05-09 01:31:22 - Start process_gps_detail_full_position 3164
+2025-05-09 01:32:28 - Starting process_gps_tasks
+2025-05-09 01:32:28 - Start process_gps_detail
+2025-05-09 01:32:28 - Loading shapefiles
+2025-05-09 01:32:28 - Loading shapefile: data_map3/Th_Country_region.shp
+2025-05-09 01:32:28 - Loading shapefile: data_map3/Th_Province_region.shp
+2025-05-09 01:32:28 - Loading shapefile: data_map3/Th_Amphoe_region.shp
+2025-05-09 01:32:28 - Loading shapefile: data_map3/Th_Tambon_region.shp
+2025-05-09 01:32:29 - Shape Files : Loaded
+2025-05-09 01:32:29 - Connected to database
+2025-05-09 01:32:29 - Fetched 23 records to process.
+2025-05-09 01:32:30 - Finished process_gps_detail
+2025-05-09 01:32:30 - Start process_gps_detail_full_position 3150
+2025-05-09 01:33:00 - Query timeout occurred, consider reducing limit_records in settings.json
+2025-05-09 01:33:00 - Start process_gps_detail_full_position 3164
+2025-05-09 01:34:01 - Starting process_gps_tasks
+2025-05-09 01:34:01 - Start process_gps_detail
+2025-05-09 01:34:01 - Loading shapefiles
+2025-05-09 01:34:01 - Loading shapefile: data_map3/Th_Country_region.shp
+2025-05-09 01:34:01 - Loading shapefile: data_map3/Th_Province_region.shp
+2025-05-09 01:34:01 - Loading shapefile: data_map3/Th_Amphoe_region.shp
+2025-05-09 01:34:01 - Loading shapefile: data_map3/Th_Tambon_region.shp
+2025-05-09 01:34:01 - Shape Files : Loaded
+2025-05-09 01:34:01 - Connected to database
+2025-05-09 01:34:01 - Fetched 13 records to process.
+2025-05-09 01:34:02 - Finished process_gps_detail
+2025-05-09 01:34:02 - Start process_gps_detail_full_position 3150
+2025-05-09 01:34:32 - Query timeout occurred, consider reducing limit_records in settings.json
+2025-05-09 01:34:32 - Start process_gps_detail_full_position 3164
+2025-05-09 01:35:39 - Starting process_gps_tasks
+2025-05-09 01:35:39 - Start process_gps_detail
+2025-05-09 01:35:39 - Loading shapefiles
+2025-05-09 01:35:39 - Loading shapefile: data_map3/Th_Country_region.shp
+2025-05-09 01:35:39 - Loading shapefile: data_map3/Th_Province_region.shp
+2025-05-09 01:35:39 - Loading shapefile: data_map3/Th_Amphoe_region.shp
+2025-05-09 01:35:39 - Loading shapefile: data_map3/Th_Tambon_region.shp
+2025-05-09 01:35:39 - Shape Files : Loaded
+2025-05-09 01:35:39 - Connected to database
+2025-05-09 01:35:39 - Fetched 16 records to process.
+2025-05-09 01:35:40 - Finished process_gps_detail
+2025-05-09 01:35:40 - Start process_gps_detail_full_position 3150
+2025-05-09 01:36:16 - Start process_gps_detail_full_position 3164
+2025-05-09 01:37:19 - Starting process_gps_tasks
+2025-05-09 01:37:19 - Start process_gps_detail
+2025-05-09 01:37:19 - Loading shapefiles
+2025-05-09 01:37:19 - Loading shapefile: data_map3/Th_Country_region.shp
+2025-05-09 01:37:19 - Loading shapefile: data_map3/Th_Province_region.shp
+2025-05-09 01:37:19 - Loading shapefile: data_map3/Th_Amphoe_region.shp
+2025-05-09 01:37:19 - Loading shapefile: data_map3/Th_Tambon_region.shp
+2025-05-09 01:37:20 - Shape Files : Loaded
+2025-05-09 01:37:20 - Connected to database
+2025-05-09 01:37:20 - Fetched 23 records to process.
+2025-05-09 01:37:21 - Finished process_gps_detail
+2025-05-09 01:37:21 - Start process_gps_detail_full_position 3150
+2025-05-09 01:38:11 - Start process_gps_detail_full_position 3164
+2025-05-09 01:39:11 - Starting process_gps_tasks
+2025-05-09 01:39:11 - Start process_gps_detail
+2025-05-09 01:39:11 - Loading shapefiles
+2025-05-09 01:39:11 - Loading shapefile: data_map3/Th_Country_region.shp
+2025-05-09 01:39:11 - Loading shapefile: data_map3/Th_Province_region.shp
+2025-05-09 01:39:11 - Loading shapefile: data_map3/Th_Amphoe_region.shp
+2025-05-09 01:39:11 - Loading shapefile: data_map3/Th_Tambon_region.shp
+2025-05-09 01:39:11 - Shape Files : Loaded
+2025-05-09 01:39:11 - Connected to database
+2025-05-09 01:39:12 - Fetched 29 records to process.
+2025-05-09 01:39:13 - Finished process_gps_detail
+2025-05-09 01:39:13 - Start process_gps_detail_full_position 3150
+2025-05-09 01:39:43 - Query timeout occurred, consider reducing limit_records in settings.json
+2025-05-09 01:39:43 - Start process_gps_detail_full_position 3164
+2025-05-09 01:40:47 - Starting process_gps_tasks
+2025-05-09 01:40:47 - Start process_gps_detail
+2025-05-09 01:40:47 - Loading shapefiles
+2025-05-09 01:40:47 - Loading shapefile: data_map3/Th_Country_region.shp
+2025-05-09 01:40:47 - Loading shapefile: data_map3/Th_Province_region.shp
+2025-05-09 01:40:48 - Loading shapefile: data_map3/Th_Amphoe_region.shp
+2025-05-09 01:40:48 - Loading shapefile: data_map3/Th_Tambon_region.shp
+2025-05-09 01:40:48 - Shape Files : Loaded
+2025-05-09 01:40:48 - Connected to database
+2025-05-09 01:40:48 - Fetched 12 records to process.
+2025-05-09 01:40:49 - Finished process_gps_detail
+2025-05-09 01:40:49 - Start process_gps_detail_full_position 3150
+2025-05-09 01:41:19 - Query timeout occurred, consider reducing limit_records in settings.json
+2025-05-09 01:41:19 - Start process_gps_detail_full_position 3164
+2025-05-09 01:42:19 - Starting process_gps_tasks
+2025-05-09 01:42:19 - Start process_gps_detail
+2025-05-09 01:42:19 - Loading shapefiles
+2025-05-09 01:42:19 - Loading shapefile: data_map3/Th_Country_region.shp
+2025-05-09 01:42:19 - Loading shapefile: data_map3/Th_Province_region.shp
+2025-05-09 01:42:19 - Loading shapefile: data_map3/Th_Amphoe_region.shp
+2025-05-09 01:42:19 - Loading shapefile: data_map3/Th_Tambon_region.shp
+2025-05-09 01:42:20 - Shape Files : Loaded
+2025-05-09 01:42:20 - Connected to database
+2025-05-09 01:42:20 - Fetched 16 records to process.
+2025-05-09 01:42:21 - Finished process_gps_detail
+2025-05-09 01:42:21 - Start process_gps_detail_full_position 3150
+2025-05-09 01:42:51 - Query timeout occurred, consider reducing limit_records in settings.json
+2025-05-09 01:42:51 - Start process_gps_detail_full_position 3164
+2025-05-09 01:43:52 - Starting process_gps_tasks
+2025-05-09 01:43:52 - Start process_gps_detail
+2025-05-09 01:43:52 - Loading shapefiles
+2025-05-09 01:43:52 - Loading shapefile: data_map3/Th_Country_region.shp
+2025-05-09 01:43:52 - Loading shapefile: data_map3/Th_Province_region.shp
+2025-05-09 01:43:52 - Loading shapefile: data_map3/Th_Amphoe_region.shp
+2025-05-09 01:43:52 - Loading shapefile: data_map3/Th_Tambon_region.shp
+2025-05-09 01:43:53 - Shape Files : Loaded
+2025-05-09 01:43:53 - Connected to database
+2025-05-09 01:43:53 - Fetched 12 records to process.
+2025-05-09 01:43:54 - Finished process_gps_detail
+2025-05-09 01:43:54 - Start process_gps_detail_full_position 3150
+2025-05-09 01:44:24 - Query timeout occurred, consider reducing limit_records in settings.json
+2025-05-09 01:44:24 - Start process_gps_detail_full_position 3164
+2025-05-09 01:45:30 - Starting process_gps_tasks
+2025-05-09 01:45:30 - Start process_gps_detail
+2025-05-09 01:45:30 - Loading shapefiles
+2025-05-09 01:45:30 - Loading shapefile: data_map3/Th_Country_region.shp
+2025-05-09 01:45:30 - Loading shapefile: data_map3/Th_Province_region.shp
+2025-05-09 01:45:30 - Loading shapefile: data_map3/Th_Amphoe_region.shp
+2025-05-09 01:45:31 - Loading shapefile: data_map3/Th_Tambon_region.shp
+2025-05-09 01:45:31 - Shape Files : Loaded
+2025-05-09 01:45:31 - Connected to database
+2025-05-09 01:45:31 - Fetched 17 records to process.
+2025-05-09 01:45:32 - Finished process_gps_detail
+2025-05-09 01:45:32 - Start process_gps_detail_full_position 3150
+2025-05-09 01:46:02 - Query timeout occurred, consider reducing limit_records in settings.json
+2025-05-09 01:46:02 - Start process_gps_detail_full_position 3164
+2025-05-09 01:47:03 - Starting process_gps_tasks
+2025-05-09 01:47:03 - Start process_gps_detail
+2025-05-09 01:47:03 - Loading shapefiles
+2025-05-09 01:47:03 - Loading shapefile: data_map3/Th_Country_region.shp
+2025-05-09 01:47:03 - Loading shapefile: data_map3/Th_Province_region.shp
+2025-05-09 01:47:03 - Loading shapefile: data_map3/Th_Amphoe_region.shp
+2025-05-09 01:47:03 - Loading shapefile: data_map3/Th_Tambon_region.shp
+2025-05-09 01:47:03 - Shape Files : Loaded
+2025-05-09 01:47:04 - Connected to database
+2025-05-09 01:47:04 - Fetched 19 records to process.
+2025-05-09 01:47:04 - Finished process_gps_detail
+2025-05-09 01:47:04 - Start process_gps_detail_full_position 3150
+2025-05-09 01:47:35 - Query timeout occurred, consider reducing limit_records in settings.json
+2025-05-09 01:47:35 - Start process_gps_detail_full_position 3164
+2025-05-09 01:48:42 - Starting process_gps_tasks
+2025-05-09 01:48:42 - Start process_gps_detail
+2025-05-09 01:48:42 - Loading shapefiles
+2025-05-09 01:48:42 - Loading shapefile: data_map3/Th_Country_region.shp
+2025-05-09 01:48:42 - Loading shapefile: data_map3/Th_Province_region.shp
+2025-05-09 01:48:42 - Loading shapefile: data_map3/Th_Amphoe_region.shp
+2025-05-09 01:48:42 - Loading shapefile: data_map3/Th_Tambon_region.shp
+2025-05-09 01:48:42 - Shape Files : Loaded
+2025-05-09 01:48:42 - Connected to database
+2025-05-09 01:48:42 - Fetched 14 records to process.
+2025-05-09 01:48:43 - Finished process_gps_detail
+2025-05-09 01:48:43 - Start process_gps_detail_full_position 3150
+2025-05-09 01:49:13 - Query timeout occurred, consider reducing limit_records in settings.json
+2025-05-09 01:49:13 - Start process_gps_detail_full_position 3164
+2025-05-09 01:50:14 - Starting process_gps_tasks
+2025-05-09 01:50:14 - Start process_gps_detail
+2025-05-09 01:50:14 - Loading shapefiles
+2025-05-09 01:50:14 - Loading shapefile: data_map3/Th_Country_region.shp
+2025-05-09 01:50:14 - Loading shapefile: data_map3/Th_Province_region.shp
+2025-05-09 01:50:14 - Loading shapefile: data_map3/Th_Amphoe_region.shp
+2025-05-09 01:50:14 - Loading shapefile: data_map3/Th_Tambon_region.shp
+2025-05-09 01:50:14 - Shape Files : Loaded
+2025-05-09 01:50:15 - Connected to database
+2025-05-09 01:50:15 - Fetched 22 records to process.
+2025-05-09 01:50:16 - Finished process_gps_detail
+2025-05-09 01:50:16 - Start process_gps_detail_full_position 3150
+2025-05-09 01:50:46 - Query timeout occurred, consider reducing limit_records in settings.json
+2025-05-09 01:50:46 - Start process_gps_detail_full_position 3164
+2025-05-09 01:51:52 - Starting process_gps_tasks
+2025-05-09 01:51:52 - Start process_gps_detail
+2025-05-09 01:51:52 - Loading shapefiles
+2025-05-09 01:51:52 - Loading shapefile: data_map3/Th_Country_region.shp
+2025-05-09 01:51:52 - Loading shapefile: data_map3/Th_Province_region.shp
+2025-05-09 01:51:52 - Loading shapefile: data_map3/Th_Amphoe_region.shp
+2025-05-09 01:51:52 - Loading shapefile: data_map3/Th_Tambon_region.shp
+2025-05-09 01:51:53 - Shape Files : Loaded
+2025-05-09 01:51:53 - Connected to database
+2025-05-09 01:51:53 - Fetched 11 records to process.
+2025-05-09 01:51:54 - Finished process_gps_detail
+2025-05-09 01:51:54 - Start process_gps_detail_full_position 3150
+2025-05-09 01:52:24 - Query timeout occurred, consider reducing limit_records in settings.json
+2025-05-09 01:52:24 - Start process_gps_detail_full_position 3164
+2025-05-09 01:53:29 - Starting process_gps_tasks
+2025-05-09 01:53:29 - Start process_gps_detail
+2025-05-09 01:53:29 - Loading shapefiles
+2025-05-09 01:53:29 - Loading shapefile: data_map3/Th_Country_region.shp
+2025-05-09 01:53:29 - Loading shapefile: data_map3/Th_Province_region.shp
+2025-05-09 01:53:29 - Loading shapefile: data_map3/Th_Amphoe_region.shp
+2025-05-09 01:53:29 - Loading shapefile: data_map3/Th_Tambon_region.shp
+2025-05-09 01:53:29 - Shape Files : Loaded
+2025-05-09 01:53:30 - Connected to database
+2025-05-09 01:53:30 - Fetched 11 records to process.
+2025-05-09 01:53:30 - Finished process_gps_detail
+2025-05-09 01:53:30 - Start process_gps_detail_full_position 3150
+2025-05-09 01:54:01 - Query timeout occurred, consider reducing limit_records in settings.json
+2025-05-09 01:54:01 - Start process_gps_detail_full_position 3164
+2025-05-09 01:55:05 - Starting process_gps_tasks
+2025-05-09 01:55:05 - Start process_gps_detail
+2025-05-09 01:55:05 - Loading shapefiles
+2025-05-09 01:55:05 - Loading shapefile: data_map3/Th_Country_region.shp
+2025-05-09 01:55:05 - Loading shapefile: data_map3/Th_Province_region.shp
+2025-05-09 01:55:05 - Loading shapefile: data_map3/Th_Amphoe_region.shp
+2025-05-09 01:55:05 - Loading shapefile: data_map3/Th_Tambon_region.shp
+2025-05-09 01:55:05 - Shape Files : Loaded
+2025-05-09 01:55:06 - Connected to database
+2025-05-09 01:55:06 - Fetched 23 records to process.
+2025-05-09 01:55:06 - Finished process_gps_detail
+2025-05-09 01:55:06 - Start process_gps_detail_full_position 3150
+2025-05-09 01:55:37 - Query timeout occurred, consider reducing limit_records in settings.json
+2025-05-09 01:55:37 - Start process_gps_detail_full_position 3164
+2025-05-09 01:56:37 - Starting process_gps_tasks
+2025-05-09 01:56:37 - Start process_gps_detail
+2025-05-09 01:56:37 - Loading shapefiles
+2025-05-09 01:56:37 - Loading shapefile: data_map3/Th_Country_region.shp
+2025-05-09 01:56:37 - Loading shapefile: data_map3/Th_Province_region.shp
+2025-05-09 01:56:37 - Loading shapefile: data_map3/Th_Amphoe_region.shp
+2025-05-09 01:56:38 - Loading shapefile: data_map3/Th_Tambon_region.shp
+2025-05-09 01:56:38 - Shape Files : Loaded
+2025-05-09 01:56:38 - Connected to database
+2025-05-09 01:56:38 - Fetched 12 records to process.
+2025-05-09 01:56:39 - Finished process_gps_detail
+2025-05-09 01:56:39 - Start process_gps_detail_full_position 3150
+2025-05-09 01:57:09 - Query timeout occurred, consider reducing limit_records in settings.json
+2025-05-09 01:57:09 - Start process_gps_detail_full_position 3164
+2025-05-09 01:58:14 - Starting process_gps_tasks
+2025-05-09 01:58:14 - Start process_gps_detail
+2025-05-09 01:58:14 - Loading shapefiles
+2025-05-09 01:58:14 - Loading shapefile: data_map3/Th_Country_region.shp
+2025-05-09 01:58:14 - Loading shapefile: data_map3/Th_Province_region.shp
+2025-05-09 01:58:14 - Loading shapefile: data_map3/Th_Amphoe_region.shp
+2025-05-09 01:58:14 - Loading shapefile: data_map3/Th_Tambon_region.shp
+2025-05-09 01:58:14 - Shape Files : Loaded
+2025-05-09 01:58:15 - Connected to database
+2025-05-09 01:58:15 - Fetched 23 records to process.
+2025-05-09 01:58:16 - Finished process_gps_detail
+2025-05-09 01:58:16 - Start process_gps_detail_full_position 3150
+2025-05-09 01:58:46 - Query timeout occurred, consider reducing limit_records in settings.json
+2025-05-09 01:58:46 - Start process_gps_detail_full_position 3164
+2025-05-09 01:59:49 - Starting process_gps_tasks
+2025-05-09 01:59:49 - Start process_gps_detail
+2025-05-09 01:59:49 - Loading shapefiles
+2025-05-09 01:59:49 - Loading shapefile: data_map3/Th_Country_region.shp
+2025-05-09 01:59:49 - Loading shapefile: data_map3/Th_Province_region.shp
+2025-05-09 01:59:49 - Loading shapefile: data_map3/Th_Amphoe_region.shp
+2025-05-09 01:59:49 - Loading shapefile: data_map3/Th_Tambon_region.shp
+2025-05-09 01:59:50 - Shape Files : Loaded
+2025-05-09 01:59:50 - Connected to database
+2025-05-09 01:59:50 - Fetched 7 records to process.
+2025-05-09 01:59:50 - Finished process_gps_detail
+2025-05-09 01:59:50 - Start process_gps_detail_full_position 3150
+2025-05-09 02:00:20 - Query timeout occurred, consider reducing limit_records in settings.json
+2025-05-09 02:00:21 - Start process_gps_detail_full_position 3164
+2025-05-09 02:02:38 - Starting application
+2025-05-09 02:02:38 - Settings loaded successfully
+2025-05-09 02:02:38 - Settings loaded
+2025-05-09 02:02:40 - Initial load of location cache
+2025-05-09 02:03:39 - Starting process_gps_tasks
+2025-05-09 02:03:39 - Start process_gps_detail
+2025-05-09 02:03:39 - Loading shapefiles
+2025-05-09 02:03:39 - Loading shapefile: data_map3/Th_Country_region.shp
+2025-05-09 02:03:39 - Loading shapefile: data_map3/Th_Province_region.shp
+2025-05-09 02:03:39 - Loading shapefile: data_map3/Th_Amphoe_region.shp
+2025-05-09 02:03:39 - Loading shapefile: data_map3/Th_Tambon_region.shp
+2025-05-09 02:03:39 - Shape Files : Loaded
+2025-05-09 02:03:39 - Connected to database
+2025-05-09 02:03:39 - Fetched 0 records to process.
+2025-05-09 02:03:39 - Finished process_gps_detail
+2025-05-09 02:03:39 - Start process_gps_detail_full_position 3150
+2025-05-09 02:04:14 - Start process_gps_detail_full_position 3164
+2025-05-09 02:05:15 - Starting process_gps_tasks
+2025-05-09 02:05:15 - Start process_gps_detail
+2025-05-09 02:05:15 - Loading shapefiles
+2025-05-09 02:05:15 - Loading shapefile: data_map3/Th_Country_region.shp
+2025-05-09 02:05:15 - Loading shapefile: data_map3/Th_Province_region.shp
+2025-05-09 02:05:15 - Loading shapefile: data_map3/Th_Amphoe_region.shp
+2025-05-09 02:05:15 - Loading shapefile: data_map3/Th_Tambon_region.shp
+2025-05-09 02:05:15 - Shape Files : Loaded
+2025-05-09 02:05:15 - Connected to database
+2025-05-09 02:05:15 - Fetched 11 records to process.
+2025-05-09 02:05:16 - Finished process_gps_detail
+2025-05-09 02:05:16 - Start process_gps_detail_full_position 3150
+2025-05-09 02:05:46 - Query timeout occurred, consider reducing limit_records in settings.json
+2025-05-09 02:05:46 - Automatically reduced limit_records to 3500
+2025-05-09 02:05:46 - Start process_gps_detail_full_position 3164
+2025-05-09 02:06:52 - Starting process_gps_tasks
+2025-05-09 02:06:52 - Start process_gps_detail
+2025-05-09 02:06:52 - Loading shapefiles
+2025-05-09 02:06:52 - Loading shapefile: data_map3/Th_Country_region.shp
+2025-05-09 02:06:52 - Loading shapefile: data_map3/Th_Province_region.shp
+2025-05-09 02:06:52 - Loading shapefile: data_map3/Th_Amphoe_region.shp
+2025-05-09 02:06:52 - Loading shapefile: data_map3/Th_Tambon_region.shp
+2025-05-09 02:06:52 - Shape Files : Loaded
+2025-05-09 02:06:52 - Connected to database
+2025-05-09 02:06:52 - Fetched 8 records to process.
+2025-05-09 02:06:53 - Finished process_gps_detail
+2025-05-09 02:06:53 - Start process_gps_detail_full_position 3150
+2025-05-09 02:07:28 - Start process_gps_detail_full_position 3164
+2025-05-09 02:08:29 - Starting process_gps_tasks
+2025-05-09 02:08:29 - Start process_gps_detail
+2025-05-09 02:08:29 - Loading shapefiles
+2025-05-09 02:08:29 - Loading shapefile: data_map3/Th_Country_region.shp
+2025-05-09 02:08:29 - Loading shapefile: data_map3/Th_Province_region.shp
+2025-05-09 02:08:29 - Loading shapefile: data_map3/Th_Amphoe_region.shp
+2025-05-09 02:08:29 - Loading shapefile: data_map3/Th_Tambon_region.shp
+2025-05-09 02:08:29 - Shape Files : Loaded
+2025-05-09 02:08:29 - Connected to database
+2025-05-09 02:08:29 - Fetched 5 records to process.
+2025-05-09 02:08:29 - Finished process_gps_detail
+2025-05-09 02:08:29 - Start process_gps_detail_full_position 3150
+2025-05-09 02:09:00 - Query timeout occurred, consider reducing limit_records in settings.json
+2025-05-09 02:09:00 - Automatically reduced limit_records to 1750
+2025-05-09 02:09:00 - Start process_gps_detail_full_position 3164
+2025-05-09 02:10:04 - Starting process_gps_tasks
+2025-05-09 02:10:04 - Start process_gps_detail
+2025-05-09 02:10:04 - Loading shapefiles
+2025-05-09 02:10:04 - Loading shapefile: data_map3/Th_Country_region.shp
+2025-05-09 02:10:04 - Loading shapefile: data_map3/Th_Province_region.shp
+2025-05-09 02:10:04 - Loading shapefile: data_map3/Th_Amphoe_region.shp
+2025-05-09 02:10:04 - Loading shapefile: data_map3/Th_Tambon_region.shp
+2025-05-09 02:10:04 - Shape Files : Loaded
+2025-05-09 02:10:04 - Connected to database
+2025-05-09 02:10:04 - Fetched 19 records to process.
+2025-05-09 02:10:05 - Finished process_gps_detail
+2025-05-09 02:10:05 - Start process_gps_detail_full_position 3150
+2025-05-09 02:10:41 - Start process_gps_detail_full_position 3164
+2025-05-09 02:11:41 - Starting process_gps_tasks
+2025-05-09 02:11:41 - Start process_gps_detail
+2025-05-09 02:11:41 - Loading shapefiles
+2025-05-09 02:11:41 - Loading shapefile: data_map3/Th_Country_region.shp
+2025-05-09 02:11:41 - Loading shapefile: data_map3/Th_Province_region.shp
+2025-05-09 02:11:41 - Loading shapefile: data_map3/Th_Amphoe_region.shp
+2025-05-09 02:11:41 - Loading shapefile: data_map3/Th_Tambon_region.shp
+2025-05-09 02:11:41 - Shape Files : Loaded
+2025-05-09 02:11:42 - Connected to database
+2025-05-09 02:11:42 - Fetched 0 records to process.
+2025-05-09 02:11:42 - Finished process_gps_detail
+2025-05-09 02:11:42 - Start process_gps_detail_full_position 3150
+2025-05-09 02:12:20 - Start process_gps_detail_full_position 3164
+2025-05-09 02:13:25 - Starting process_gps_tasks
+2025-05-09 02:13:25 - Start process_gps_detail
+2025-05-09 02:13:25 - Loading shapefiles
+2025-05-09 02:13:25 - Loading shapefile: data_map3/Th_Country_region.shp
+2025-05-09 02:13:25 - Loading shapefile: data_map3/Th_Province_region.shp
+2025-05-09 02:13:25 - Loading shapefile: data_map3/Th_Amphoe_region.shp
+2025-05-09 02:13:25 - Loading shapefile: data_map3/Th_Tambon_region.shp
+2025-05-09 02:13:25 - Shape Files : Loaded
+2025-05-09 02:13:26 - Connected to database
+2025-05-09 02:13:26 - Fetched 25 records to process.
+2025-05-09 02:13:27 - Finished process_gps_detail
+2025-05-09 02:13:27 - Start process_gps_detail_full_position 3150
+2025-05-09 02:14:05 - Start process_gps_detail_full_position 3164
+2025-05-09 02:15:14 - Starting process_gps_tasks
+2025-05-09 02:15:14 - Start process_gps_detail
+2025-05-09 02:15:14 - Loading shapefiles
+2025-05-09 02:15:14 - Loading shapefile: data_map3/Th_Country_region.shp
+2025-05-09 02:15:14 - Loading shapefile: data_map3/Th_Province_region.shp
+2025-05-09 02:15:14 - Loading shapefile: data_map3/Th_Amphoe_region.shp
+2025-05-09 02:15:14 - Loading shapefile: data_map3/Th_Tambon_region.shp
+2025-05-09 02:15:14 - Shape Files : Loaded
+2025-05-09 02:15:14 - Connected to database
+2025-05-09 02:15:14 - Fetched 16 records to process.
+2025-05-09 02:15:15 - Finished process_gps_detail
+2025-05-09 02:15:15 - Start process_gps_detail_full_position 3150
+2025-05-09 10:33:38 - Starting application
+2025-05-09 10:33:38 - Settings loaded successfully
+2025-05-09 10:33:38 - Settings loaded
+2025-05-09 10:33:43 - Initial load of location cache
+2025-05-09 10:34:38 - Starting process_gps_tasks
+2025-05-09 10:34:38 - Start process_gps_detail
+2025-05-09 10:34:38 - Loading shapefiles
+2025-05-09 10:34:38 - Loading shapefile: data_map3/Th_Country_region.shp
+2025-05-09 10:34:39 - Loading shapefile: data_map3/Th_Province_region.shp
+2025-05-09 10:34:39 - Loading shapefile: data_map3/Th_Amphoe_region.shp
+2025-05-09 10:34:39 - Loading shapefile: data_map3/Th_Tambon_region.shp
+2025-05-09 10:34:39 - Shape Files : Loaded
+2025-05-09 10:34:39 - Connected to database
+2025-05-09 10:34:40 - Fetched 658 records to process.
+2025-05-09 10:34:41 - Finished process_gps_detail
+2025-05-09 10:34:41 - Start process_gps_detail_full_position 3150
+2025-05-09 10:35:05 - Start process_gps_detail_full_position 3164
+2025-05-09 10:36:05 - Starting process_gps_tasks
+2025-05-09 10:36:05 - Start process_gps_detail
+2025-05-09 10:36:05 - Loading shapefiles
+2025-05-09 10:36:05 - Loading shapefile: data_map3/Th_Country_region.shp
+2025-05-09 10:36:05 - Loading shapefile: data_map3/Th_Province_region.shp
+2025-05-09 10:36:05 - Loading shapefile: data_map3/Th_Amphoe_region.shp
+2025-05-09 10:36:05 - Loading shapefile: data_map3/Th_Tambon_region.shp
+2025-05-09 10:36:06 - Shape Files : Loaded
+2025-05-09 10:36:06 - Connected to database
+2025-05-09 10:36:06 - Fetched 21 records to process.
+2025-05-09 10:36:07 - Finished process_gps_detail
+2025-05-09 10:36:07 - Start process_gps_detail_full_position 3150
+2025-05-09 10:36:12 - Start process_gps_detail_full_position 3164
+2025-05-09 10:37:12 - Starting process_gps_tasks
+2025-05-09 10:37:12 - Start process_gps_detail
+2025-05-09 10:37:12 - Loading shapefiles
+2025-05-09 10:37:12 - Loading shapefile: data_map3/Th_Country_region.shp
+2025-05-09 10:37:12 - Loading shapefile: data_map3/Th_Province_region.shp
+2025-05-09 10:37:12 - Loading shapefile: data_map3/Th_Amphoe_region.shp
+2025-05-09 10:37:12 - Loading shapefile: data_map3/Th_Tambon_region.shp
+2025-05-09 10:37:12 - Shape Files : Loaded
+2025-05-09 10:37:13 - Connected to database
+2025-05-09 10:37:13 - Fetched 18 records to process.
+2025-05-09 10:37:13 - Finished process_gps_detail
+2025-05-09 10:37:13 - Start process_gps_detail_full_position 3150
+2025-05-09 10:37:18 - Start process_gps_detail_full_position 3164
+2025-05-09 10:38:19 - Starting process_gps_tasks
+2025-05-09 10:38:19 - Start process_gps_detail
+2025-05-09 10:38:19 - Loading shapefiles
+2025-05-09 10:38:19 - Loading shapefile: data_map3/Th_Country_region.shp
+2025-05-09 10:38:19 - Loading shapefile: data_map3/Th_Province_region.shp
+2025-05-09 10:38:19 - Loading shapefile: data_map3/Th_Amphoe_region.shp
+2025-05-09 10:38:19 - Loading shapefile: data_map3/Th_Tambon_region.shp
+2025-05-09 10:38:19 - Shape Files : Loaded
+2025-05-09 10:38:19 - Connected to database
+2025-05-09 10:38:19 - Fetched 0 records to process.
+2025-05-09 10:38:19 - Finished process_gps_detail
+2025-05-09 10:38:19 - Start process_gps_detail_full_position 3150
+2025-05-09 10:38:24 - Start process_gps_detail_full_position 3164
+2025-05-09 10:39:25 - Starting process_gps_tasks
+2025-05-09 10:39:25 - Start process_gps_detail
+2025-05-09 10:39:25 - Loading shapefiles
+2025-05-09 10:39:25 - Loading shapefile: data_map3/Th_Country_region.shp
+2025-05-09 10:39:25 - Loading shapefile: data_map3/Th_Province_region.shp
+2025-05-09 10:39:25 - Loading shapefile: data_map3/Th_Amphoe_region.shp
+2025-05-09 10:39:25 - Loading shapefile: data_map3/Th_Tambon_region.shp
+2025-05-09 10:39:25 - Shape Files : Loaded
+2025-05-09 10:39:25 - Connected to database
+2025-05-09 10:39:25 - Fetched 0 records to process.
+2025-05-09 10:39:25 - Finished process_gps_detail
+2025-05-09 10:39:25 - Start process_gps_detail_full_position 3150
+2025-05-09 10:39:30 - Start process_gps_detail_full_position 3164
+2025-05-09 10:40:31 - Starting process_gps_tasks
+2025-05-09 10:40:31 - Start process_gps_detail
+2025-05-09 10:40:31 - Loading shapefiles
+2025-05-09 10:40:31 - Loading shapefile: data_map3/Th_Country_region.shp
+2025-05-09 10:40:31 - Loading shapefile: data_map3/Th_Province_region.shp
+2025-05-09 10:40:31 - Loading shapefile: data_map3/Th_Amphoe_region.shp
+2025-05-09 10:40:31 - Loading shapefile: data_map3/Th_Tambon_region.shp
+2025-05-09 10:40:31 - Shape Files : Loaded
+2025-05-09 10:40:31 - Connected to database
+2025-05-09 10:40:31 - Fetched 26 records to process.
+2025-05-09 10:40:32 - Finished process_gps_detail
+2025-05-09 10:40:32 - Start process_gps_detail_full_position 3150
+2025-05-09 10:40:37 - Start process_gps_detail_full_position 3164
+2025-05-09 10:41:38 - Starting process_gps_tasks
+2025-05-09 10:41:38 - Start process_gps_detail
+2025-05-09 10:41:38 - Loading shapefiles
+2025-05-09 10:41:38 - Loading shapefile: data_map3/Th_Country_region.shp
+2025-05-09 10:41:38 - Loading shapefile: data_map3/Th_Province_region.shp
+2025-05-09 10:41:38 - Loading shapefile: data_map3/Th_Amphoe_region.shp
+2025-05-09 10:41:38 - Loading shapefile: data_map3/Th_Tambon_region.shp
+2025-05-09 10:41:38 - Shape Files : Loaded
+2025-05-09 10:41:38 - Connected to database
+2025-05-09 10:41:38 - Fetched 14 records to process.
+2025-05-09 10:41:39 - Finished process_gps_detail
+2025-05-09 10:41:39 - Start process_gps_detail_full_position 3150
+2025-05-09 10:41:44 - Start process_gps_detail_full_position 3164
+2025-05-09 10:42:44 - Starting process_gps_tasks
+2025-05-09 10:42:44 - Start process_gps_detail
+2025-05-09 10:42:44 - Loading shapefiles
+2025-05-09 10:42:44 - Loading shapefile: data_map3/Th_Country_region.shp
+2025-05-09 10:42:44 - Loading shapefile: data_map3/Th_Province_region.shp
+2025-05-09 10:42:44 - Loading shapefile: data_map3/Th_Amphoe_region.shp
+2025-05-09 10:42:44 - Loading shapefile: data_map3/Th_Tambon_region.shp
+2025-05-09 10:42:44 - Shape Files : Loaded
+2025-05-09 10:42:45 - Connected to database
+2025-05-09 10:42:45 - Fetched 20 records to process.
+2025-05-09 10:42:45 - Finished process_gps_detail
+2025-05-09 10:42:45 - Start process_gps_detail_full_position 3150
+2025-05-09 10:42:50 - Start process_gps_detail_full_position 3164
+2025-05-09 10:43:51 - Starting process_gps_tasks
+2025-05-09 10:43:51 - Start process_gps_detail
+2025-05-09 10:43:51 - Loading shapefiles
+2025-05-09 10:43:51 - Loading shapefile: data_map3/Th_Country_region.shp
+2025-05-09 10:43:51 - Loading shapefile: data_map3/Th_Province_region.shp
+2025-05-09 10:43:51 - Loading shapefile: data_map3/Th_Amphoe_region.shp
+2025-05-09 10:43:51 - Loading shapefile: data_map3/Th_Tambon_region.shp
+2025-05-09 10:43:51 - Shape Files : Loaded
+2025-05-09 10:43:51 - Connected to database
+2025-05-09 10:43:51 - Fetched 22 records to process.
+2025-05-09 10:43:52 - Finished process_gps_detail
+2025-05-09 10:43:52 - Start process_gps_detail_full_position 3150
+2025-05-09 10:43:57 - Start process_gps_detail_full_position 3164
+2025-05-09 10:44:57 - Starting process_gps_tasks
+2025-05-09 10:44:57 - Start process_gps_detail
+2025-05-09 10:44:57 - Loading shapefiles
+2025-05-09 10:44:57 - Loading shapefile: data_map3/Th_Country_region.shp
+2025-05-09 10:44:57 - Loading shapefile: data_map3/Th_Province_region.shp
+2025-05-09 10:44:57 - Loading shapefile: data_map3/Th_Amphoe_region.shp
+2025-05-09 10:44:58 - Loading shapefile: data_map3/Th_Tambon_region.shp
+2025-05-09 10:44:58 - Shape Files : Loaded
+2025-05-09 10:44:58 - Connected to database
+2025-05-09 10:44:58 - Fetched 6 records to process.
+2025-05-09 10:44:58 - Finished process_gps_detail
+2025-05-09 10:44:58 - Start process_gps_detail_full_position 3150
+2025-05-09 10:45:04 - Start process_gps_detail_full_position 3164
+2025-05-09 10:46:05 - Starting process_gps_tasks
+2025-05-09 10:46:05 - Start process_gps_detail
+2025-05-09 10:46:05 - Loading shapefiles
+2025-05-09 10:46:05 - Loading shapefile: data_map3/Th_Country_region.shp
+2025-05-09 10:46:05 - Loading shapefile: data_map3/Th_Province_region.shp
+2025-05-09 10:46:05 - Loading shapefile: data_map3/Th_Amphoe_region.shp
+2025-05-09 10:46:05 - Loading shapefile: data_map3/Th_Tambon_region.shp
+2025-05-09 10:46:05 - Shape Files : Loaded
+2025-05-09 10:46:05 - Connected to database
+2025-05-09 10:46:05 - Fetched 22 records to process.
+2025-05-09 10:46:06 - Finished process_gps_detail
+2025-05-09 10:46:06 - Start process_gps_detail_full_position 3150
+2025-05-09 10:46:12 - Start process_gps_detail_full_position 3164
+2025-05-09 10:47:13 - Starting process_gps_tasks
+2025-05-09 10:47:13 - Start process_gps_detail
+2025-05-09 10:47:13 - Loading shapefiles
+2025-05-09 10:47:13 - Loading shapefile: data_map3/Th_Country_region.shp
+2025-05-09 10:47:13 - Loading shapefile: data_map3/Th_Province_region.shp
+2025-05-09 10:47:13 - Loading shapefile: data_map3/Th_Amphoe_region.shp
+2025-05-09 10:47:13 - Loading shapefile: data_map3/Th_Tambon_region.shp
+2025-05-09 10:47:13 - Shape Files : Loaded
+2025-05-09 10:47:13 - Connected to database
+2025-05-09 10:47:13 - Fetched 18 records to process.
+2025-05-09 10:47:14 - Finished process_gps_detail
+2025-05-09 10:47:14 - Start process_gps_detail_full_position 3150
+2025-05-09 10:47:19 - Start process_gps_detail_full_position 3164
+2025-05-09 10:48:19 - Starting process_gps_tasks
+2025-05-09 10:48:19 - Start process_gps_detail
+2025-05-09 10:48:19 - Loading shapefiles
+2025-05-09 10:48:19 - Loading shapefile: data_map3/Th_Country_region.shp
+2025-05-09 10:48:19 - Loading shapefile: data_map3/Th_Province_region.shp
+2025-05-09 10:48:19 - Loading shapefile: data_map3/Th_Amphoe_region.shp
+2025-05-09 10:48:19 - Loading shapefile: data_map3/Th_Tambon_region.shp
+2025-05-09 10:48:19 - Shape Files : Loaded
+2025-05-09 10:48:19 - Connected to database
+2025-05-09 10:48:19 - Fetched 18 records to process.
+2025-05-09 10:48:20 - Finished process_gps_detail
+2025-05-09 10:48:20 - Start process_gps_detail_full_position 3150
+2025-05-09 10:48:27 - Start process_gps_detail_full_position 3164
+2025-05-09 10:49:28 - Starting process_gps_tasks
+2025-05-09 10:49:28 - Start process_gps_detail
+2025-05-09 10:49:28 - Loading shapefiles
+2025-05-09 10:49:28 - Loading shapefile: data_map3/Th_Country_region.shp
+2025-05-09 10:49:28 - Loading shapefile: data_map3/Th_Province_region.shp
+2025-05-09 10:49:28 - Loading shapefile: data_map3/Th_Amphoe_region.shp
+2025-05-09 10:49:28 - Loading shapefile: data_map3/Th_Tambon_region.shp
+2025-05-09 10:49:28 - Shape Files : Loaded
+2025-05-09 10:49:28 - Connected to database
+2025-05-09 10:49:28 - Fetched 12 records to process.
+2025-05-09 10:49:29 - Finished process_gps_detail
+2025-05-09 10:49:29 - Start process_gps_detail_full_position 3150
+2025-05-09 10:49:33 - Start process_gps_detail_full_position 3164
+2025-05-09 10:50:34 - Starting process_gps_tasks
+2025-05-09 10:50:34 - Start process_gps_detail
+2025-05-09 10:50:34 - Loading shapefiles
+2025-05-09 10:50:34 - Loading shapefile: data_map3/Th_Country_region.shp
+2025-05-09 10:50:34 - Loading shapefile: data_map3/Th_Province_region.shp
+2025-05-09 10:50:34 - Loading shapefile: data_map3/Th_Amphoe_region.shp
+2025-05-09 10:50:34 - Loading shapefile: data_map3/Th_Tambon_region.shp
+2025-05-09 10:50:34 - Shape Files : Loaded
+2025-05-09 10:50:34 - Connected to database
+2025-05-09 10:50:34 - Fetched 27 records to process.
+2025-05-09 10:50:35 - Finished process_gps_detail
+2025-05-09 10:50:35 - Start process_gps_detail_full_position 3150
+2025-05-09 10:50:40 - Start process_gps_detail_full_position 3164
+2025-05-09 10:51:40 - Starting process_gps_tasks
+2025-05-09 10:51:40 - Start process_gps_detail
+2025-05-09 10:51:40 - Loading shapefiles
+2025-05-09 10:51:40 - Loading shapefile: data_map3/Th_Country_region.shp
+2025-05-09 10:51:40 - Loading shapefile: data_map3/Th_Province_region.shp
+2025-05-09 10:51:40 - Loading shapefile: data_map3/Th_Amphoe_region.shp
+2025-05-09 10:51:40 - Loading shapefile: data_map3/Th_Tambon_region.shp
+2025-05-09 10:51:40 - Shape Files : Loaded
+2025-05-09 10:51:40 - Connected to database
+2025-05-09 10:51:41 - Fetched 5 records to process.
+2025-05-09 10:51:41 - Finished process_gps_detail
+2025-05-09 10:51:41 - Start process_gps_detail_full_position 3150
+2025-05-09 10:51:45 - Start process_gps_detail_full_position 3164
+2025-05-09 10:52:46 - Starting process_gps_tasks
+2025-05-09 10:52:46 - Start process_gps_detail
+2025-05-09 10:52:46 - Loading shapefiles
+2025-05-09 10:52:46 - Loading shapefile: data_map3/Th_Country_region.shp
+2025-05-09 10:52:46 - Loading shapefile: data_map3/Th_Province_region.shp
+2025-05-09 10:52:46 - Loading shapefile: data_map3/Th_Amphoe_region.shp
+2025-05-09 10:52:46 - Loading shapefile: data_map3/Th_Tambon_region.shp
+2025-05-09 10:52:46 - Shape Files : Loaded
+2025-05-09 10:52:46 - Connected to database
+2025-05-09 10:52:46 - Fetched 0 records to process.
+2025-05-09 10:52:46 - Finished process_gps_detail
+2025-05-09 10:52:46 - Start process_gps_detail_full_position 3150
+2025-05-09 10:52:51 - Start process_gps_detail_full_position 3164
